@@ -1,0 +1,81 @@
+<html>
+  <head>
+    <title>Ball</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+    <script src="http://code.jquery.com/jquery-2.0.0.min.js"></script>
+    <script>
+      d = document;
+      cmp_width = 320;
+      cmp_height = 470;
+      default_bx = bx = 70;
+      default_by = by = 120;
+      vx = vy = 1;
+      paddle_width = 60;
+      paddle_height = 10;
+      br = 10;
+      px = cmp_width / 2 - paddle_width / 2;
+      py = 420;
+      paddle_movable = false;
+      alive = true;
+      num_refrect = 0;
+      $(document).bind("touchstart", function(){
+        paddle_movable = true;
+        touch_x = event.changedTouches[0].pageX;
+      });
+      $(document).bind("touchmove", function(){
+        event.preventDefault();
+        if (paddle_movable) {
+          move_x = event.changedTouches[0].pageX;
+          px += move_x - touch_x
+          touch_x = move_x
+        }
+      });
+      function draw() {
+        var canvas = d.getElementById("canvassample");
+        if (!canvas || !canvas.getContext) {
+          return false;
+        }
+        var ctx = canvas.getContext("2d");
+        ctx.beginPath();
+        ctx.fillStyle = "white";
+        ctx.fillRect(0, 0, cmp_width, cmp_height);
+        ctx.fillStyle = "black";
+        ctx.fillRect(px, py, paddle_width, paddle_height);
+        ctx.arc(bx, by, br, 0, Math.PI*2, false)
+        ctx.fill();
+        ctx.font = "40pt Arial";
+        ctx.fillText("" + num_refrect, 30, 80);
+      }
+      $(function(){
+        draw();
+      });
+      setInterval(function(){
+        if (by > cmp_height - 10) {
+          alert("Game Over");
+          num_refrect = 0;
+          bx = default_bx;
+          by = default_by;
+        }
+        if (bx < 10 || bx > cmp_width - 10) {vx *= -1}
+        if (by < 10) {vy *= -1}
+        if (alive && by > py && by > py && px < bx && bx < (px + paddle_width)) {
+          vy *= -1
+          num_refrect++;
+        }
+        if (by > py) {alive = false}
+        if (by <= py) {alive = true}
+        bx += vx;
+        by += vy;
+        draw();
+      }, 5);
+    </script>
+  </head>
+  <body>
+    <canvas id="canvassample" width="320" height="480"></canvas>
+  </body>
+</html>

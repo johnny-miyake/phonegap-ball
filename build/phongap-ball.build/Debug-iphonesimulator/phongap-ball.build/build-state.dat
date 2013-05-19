@@ -1,0 +1,688 @@
+Tphongap-ball
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/johnny/development/phonegap/phonegap-ball/build/phongap-ball.app/Info.plist phongap-ball/phongap-ball-Info.plist
+cPhaseScriptExecution "Copy www directory" /Users/johnny/development/phonegap/phonegap-ball/build/phongap-ball.build/Debug-iphonesimulator/phongap-ball.build/Script-304B58A110DAC018002A0835.sh
+cCpResource phongap-ball/config.xml build/phongap-ball.app/config.xml
+cCpResource phongap-ball/Resources/icons/icon-72.png build/phongap-ball.app/icon-72.png
+cCpResource phongap-ball/Resources/icons/icon.png build/phongap-ball.app/icon.png
+cCpResource phongap-ball/Resources/icons/icon@2x.png build/phongap-ball.app/icon@2x.png
+cCpResource phongap-ball/Resources/Capture.bundle build/phongap-ball.app/Capture.bundle
+cCopyStringsFile /Users/johnny/development/phonegap/phonegap-ball/build/phongap-ball.app/en.lproj/Localizable.strings phongap-ball/Resources/en.lproj/Localizable.strings
+cCopyStringsFile /Users/johnny/development/phonegap/phonegap-ball/build/phongap-ball.app/es.lproj/Localizable.strings phongap-ball/Resources/es.lproj/Localizable.strings
+cCompileXIB /Users/johnny/development/phonegap/phonegap-ball/phongap-ball/Classes/MainViewController.xib
+cCopyStringsFile /Users/johnny/development/phonegap/phonegap-ball/build/phongap-ball.app/de.lproj/Localizable.strings phongap-ball/Resources/de.lproj/Localizable.strings
+cCopyStringsFile /Users/johnny/development/phonegap/phonegap-ball/build/phongap-ball.app/se.lproj/Localizable.strings phongap-ball/Resources/se.lproj/Localizable.strings
+cCpResource phongap-ball/Resources/splash/Default-Landscape@2x~ipad.png build/phongap-ball.app/Default-Landscape@2x~ipad.png
+cCpResource phongap-ball/Resources/splash/Default-Landscape~ipad.png build/phongap-ball.app/Default-Landscape~ipad.png
+cCpResource phongap-ball/Resources/splash/Default-Portrait@2x~ipad.png build/phongap-ball.app/Default-Portrait@2x~ipad.png
+cCpResource phongap-ball/Resources/splash/Default-Portrait~ipad.png build/phongap-ball.app/Default-Portrait~ipad.png
+cCpResource phongap-ball/Resources/splash/Default@2x~iphone.png build/phongap-ball.app/Default@2x~iphone.png
+cCpResource phongap-ball/Resources/splash/Default~iphone.png build/phongap-ball.app/Default~iphone.png
+cCpResource phongap-ball/Resources/splash/Default-568h@2x~iphone.png build/phongap-ball.app/Default-568h@2x~iphone.png
+cCpResource phongap-ball/Resources/icons/icon-72@2x.png build/phongap-ball.app/icon-72@2x.png
+cProcessPCH /var/folders/mj/1r224_d97w3fndscsqv3wv5r0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/phongap-ball-Prefix-ghgtfennkhbuouestdfkjbwoisdi/phongap-ball-Prefix.pch.pth phongap-ball/phongap-ball-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/phongap-ball.build/Debug-iphonesimulator/phongap-ball.build/Objects-normal/i386/main.o /Users/johnny/development/phonegap/phonegap-ball/phongap-ball/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/phongap-ball.build/Debug-iphonesimulator/phongap-ball.build/Objects-normal/i386/AppDelegate.o /Users/johnny/development/phonegap/phonegap-ball/phongap-ball/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/phongap-ball.build/Debug-iphonesimulator/phongap-ball.build/Objects-normal/i386/MainViewController.o /Users/johnny/development/phonegap/phonegap-ball/phongap-ball/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/johnny/development/phonegap/phonegap-ball/build/phongap-ball.app/phongap-ball normal i386
+cGenerateDSYMFile /Users/johnny/development/phonegap/phonegap-ball/build/phongap-ball.app.dSYM /Users/johnny/development/phonegap/phonegap-ball/build/phongap-ball.app/phongap-ball
+cTouch /Users/johnny/development/phonegap/phonegap-ball/build/phongap-ball.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk
+c0000000050EDEAFB0000000000000110
+t1357769467
+s272
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c000000005164C61400000000001EB540
+t1365558804
+s2012480
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/AddressBook.framework/AddressBook
+c000000005164C61300000000000C1030
+t1365558803
+s790576
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/AddressBookUI.framework/AddressBookUI
+c000000005164C6140000000000193640
+t1365558804
+s1652288
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/AssetsLibrary.framework/AssetsLibrary
+c000000005164C61300000000000226E0
+t1365558803
+s141024
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000005164C61400000000003D4DF0
+t1365558804
+s4017648
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+c000000005164C6150000000000215DB0
+t1365558805
+s2186672
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000005164C6150000000000228FE0
+t1365558805
+s2265056
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+c000000005164C615000000000009C590
+t1365558805
+s640400
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/CoreMedia.framework/CoreMedia
+c000000005164C6160000000000085620
+t1365558806
+s546336
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000005164C61800000000003DDFA0
+t1365558808
+s4054944
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/MediaPlayer.framework/MediaPlayer
+c000000005164C61C00000000002DBA50
+t1365558812
+s2996816
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+c000000005164C61D00000000000BCC20
+t1365558813
+s773152
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000005164C61E00000000001D5750
+t1365558814
+s1922896
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+c000000005164C61F000000000006CC50
+t1365558815
+s445520
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000005164C6220000000000AB6230
+t1365558818
+s11231792
+
+N/Users/johnny/development/phonegap/phonegap-ball/build/include/Cordova/CDVAvailability.h
+c00000000519902EA0000000000000C0B
+t1368982250
+s3083
+
+N/Users/johnny/development/phonegap/phonegap-ball/build/include/Cordova/CDVCommandDelegate.h
+c00000000519902EA00000000000008BA
+t1368982250
+s2234
+
+N/Users/johnny/development/phonegap/phonegap-ball/build/include/Cordova/CDVCommandDelegateImpl.h
+c00000000519902EA0000000000000473
+t1368982250
+s1139
+
+N/Users/johnny/development/phonegap/phonegap-ball/build/include/Cordova/CDVCommandQueue.h
+c00000000519902EA0000000000000501
+t1368982250
+s1281
+
+N/Users/johnny/development/phonegap/phonegap-ball/build/include/Cordova/CDVInvokedUrlCommand.h
+c00000000519902E90000000000000906
+t1368982249
+s2310
+
+N/Users/johnny/development/phonegap/phonegap-ball/build/include/Cordova/CDVPlugin.h
+c00000000519902EA0000000000000892
+t1368982250
+s2194
+
+N/Users/johnny/development/phonegap/phonegap-ball/build/include/Cordova/CDVPluginResult.h
+c00000000519902EA0000000000000C13
+t1368982250
+s3091
+
+N/Users/johnny/development/phonegap/phonegap-ball/build/include/Cordova/CDVScreenOrientationDelegate.h
+c00000000519902EA0000000000000408
+t1368982250
+s1032
+
+N/Users/johnny/development/phonegap/phonegap-ball/build/include/Cordova/CDVViewController.h
+c00000000519902EA0000000000000B67
+t1368982250
+s2919
+
+N/Users/johnny/development/phonegap/phonegap-ball/build/include/Cordova/CDVWhitelist.h
+c00000000519902EA0000000000000476
+t1368982250
+s1142
+
+N/Users/johnny/development/phonegap/phonegap-ball/build/include/Cordova/NSMutableArray+QueueAdditions.h
+c00000000519902EA00000000000003A0
+t1368982250
+s928
+
+N/Users/johnny/development/phonegap/phonegap-ball/build/libCordova.a
+c000000005199032D0000000000361D90
+t1368982317
+s3546512
+
+N/Users/johnny/development/phonegap/phonegap-ball/build/phongap-ball.app
+t2
+s0
+
+N/Users/johnny/development/phonegap/phonegap-ball/build/phongap-ball.app.dSYM
+t2
+s0
+
+N/Users/johnny/development/phonegap/phonegap-ball/build/phongap-ball.app/Capture.bundle
+t2
+s0
+
+N/Users/johnny/development/phonegap/phonegap-ball/build/phongap-ball.app/Default-568h@2x~iphone.png
+t2
+s0
+
+N/Users/johnny/development/phonegap/phonegap-ball/build/phongap-ball.app/Default-Landscape@2x~ipad.png
+t2
+s0
+
+N/Users/johnny/development/phonegap/phonegap-ball/build/phongap-ball.app/Default-Landscape~ipad.png
+t2
+s0
+
+N/Users/johnny/development/phonegap/phonegap-ball/build/phongap-ball.app/Default-Portrait@2x~ipad.png
+t2
+s0
+
+N/Users/johnny/development/phonegap/phonegap-ball/build/phongap-ball.app/Default-Portrait~ipad.png
+t2
+s0
+
+N/Users/johnny/development/phonegap/phonegap-ball/build/phongap-ball.app/Default@2x~iphone.png
+t2
+s0
+
+N/Users/johnny/development/phonegap/phonegap-ball/build/phongap-ball.app/Default~iphone.png
+t2
+s0
+
+N/Users/johnny/development/phonegap/phonegap-ball/build/phongap-ball.app/Info.plist
+t2
+s0
+
+N/Users/johnny/development/phonegap/phonegap-ball/build/phongap-ball.app/MainViewController.nib
+t2
+s0
+
+N/Users/johnny/development/phonegap/phonegap-ball/build/phongap-ball.app/PkgInfo
+t2
+s0
+
+N/Users/johnny/development/phonegap/phonegap-ball/build/phongap-ball.app/config.xml
+t2
+s0
+
+N/Users/johnny/development/phonegap/phonegap-ball/build/phongap-ball.app/de.lproj/Localizable.strings
+t2
+s0
+
+N/Users/johnny/development/phonegap/phonegap-ball/build/phongap-ball.app/en.lproj/Localizable.strings
+t2
+s0
+
+N/Users/johnny/development/phonegap/phonegap-ball/build/phongap-ball.app/es.lproj/Localizable.strings
+t2
+s0
+
+N/Users/johnny/development/phonegap/phonegap-ball/build/phongap-ball.app/icon-72.png
+t2
+s0
+
+N/Users/johnny/development/phonegap/phonegap-ball/build/phongap-ball.app/icon-72@2x.png
+t2
+s0
+
+N/Users/johnny/development/phonegap/phonegap-ball/build/phongap-ball.app/icon.png
+t2
+s0
+
+N/Users/johnny/development/phonegap/phonegap-ball/build/phongap-ball.app/icon@2x.png
+t2
+s0
+
+N/Users/johnny/development/phonegap/phonegap-ball/build/phongap-ball.app/phongap-ball
+t2
+s0
+
+N/Users/johnny/development/phonegap/phonegap-ball/build/phongap-ball.app/se.lproj/Localizable.strings
+t2
+s0
+
+N/Users/johnny/development/phonegap/phonegap-ball/build/phongap-ball.build/Debug-iphonesimulator/phongap-ball.build/Objects-normal/i386/AppDelegate.o
+t2
+s0
+
+N/Users/johnny/development/phonegap/phonegap-ball/build/phongap-ball.build/Debug-iphonesimulator/phongap-ball.build/Objects-normal/i386/MainViewController.o
+t2
+s0
+
+N/Users/johnny/development/phonegap/phonegap-ball/build/phongap-ball.build/Debug-iphonesimulator/phongap-ball.build/Objects-normal/i386/main.o
+t2
+s0
+
+N/Users/johnny/development/phonegap/phonegap-ball/build/phongap-ball.build/Debug-iphonesimulator/phongap-ball.build/Objects-normal/i386/phongap-ball.LinkFileList
+c000000005199032D00000000000001BF
+t1368982317
+s447
+
+N/Users/johnny/development/phonegap/phonegap-ball/build/phongap-ball.build/Debug-iphonesimulator/phongap-ball.build/Script-304B58A110DAC018002A0835.sh
+c000000005199032D000000000000051A
+t1368982317
+s1306
+
+N/Users/johnny/development/phonegap/phonegap-ball/phongap-ball/Classes/AppDelegate.h
+c000000005198FB4000000000000005BD
+t1368980288
+s1469
+
+N/Users/johnny/development/phonegap/phonegap-ball/phongap-ball/Classes/AppDelegate.m
+c000000005198FB4000000000000013DE
+t1368980288
+s5086
+
+N/Users/johnny/development/phonegap/phonegap-ball/phongap-ball/Classes/MainViewController.h
+c000000005198FB4000000000000004D2
+t1368980288
+s1234
+
+N/Users/johnny/development/phonegap/phonegap-ball/phongap-ball/Classes/MainViewController.m
+c000000005198FB40000000000000126D
+t1368980288
+s4717
+
+N/Users/johnny/development/phonegap/phonegap-ball/phongap-ball/Classes/MainViewController.xib
+c000000005198FB400000000000001759
+t1368980288
+s5977
+
+N/Users/johnny/development/phonegap/phonegap-ball/phongap-ball/Resources/Capture.bundle
+c000000005198FB40000000000000030E
+t1368980288
+s782
+
+N/Users/johnny/development/phonegap/phonegap-ball/phongap-ball/Resources/de.lproj/Localizable.strings
+c000000005198FB400000000000000485
+t1368980288
+s1157
+
+N/Users/johnny/development/phonegap/phonegap-ball/phongap-ball/Resources/en.lproj/Localizable.strings
+c000000005198FB400000000000000470
+t1368980288
+s1136
+
+N/Users/johnny/development/phonegap/phonegap-ball/phongap-ball/Resources/es.lproj/Localizable.strings
+c000000005198FB40000000000000047D
+t1368980288
+s1149
+
+N/Users/johnny/development/phonegap/phonegap-ball/phongap-ball/Resources/icons/icon-72.png
+c000000005198FB400000000000001350
+t1368980288
+s4944
+
+N/Users/johnny/development/phonegap/phonegap-ball/phongap-ball/Resources/icons/icon-72@2x.png
+c000000005198FB400000000000002DBA
+t1368980288
+s11706
+
+N/Users/johnny/development/phonegap/phonegap-ball/phongap-ball/Resources/icons/icon.png
+c000000005198FB400000000000000F3E
+t1368980288
+s3902
+
+N/Users/johnny/development/phonegap/phonegap-ball/phongap-ball/Resources/icons/icon@2x.png
+c000000005198FB400000000000001EBD
+t1368980288
+s7869
+
+N/Users/johnny/development/phonegap/phonegap-ball/phongap-ball/Resources/se.lproj/Localizable.strings
+c000000005198FB400000000000000471
+t1368980288
+s1137
+
+N/Users/johnny/development/phonegap/phonegap-ball/phongap-ball/Resources/splash/Default-568h@2x~iphone.png
+c000000005198FB4000000000000085B1
+t1368980288
+s34225
+
+N/Users/johnny/development/phonegap/phonegap-ball/phongap-ball/Resources/splash/Default-Landscape@2x~ipad.png
+c000000005198FB400000000000012DF4
+t1368980288
+s77300
+
+N/Users/johnny/development/phonegap/phonegap-ball/phongap-ball/Resources/splash/Default-Landscape~ipad.png
+c000000005198FB400000000000008877
+t1368980288
+s34935
+
+N/Users/johnny/development/phonegap/phonegap-ball/phongap-ball/Resources/splash/Default-Portrait@2x~ipad.png
+c000000005198FB400000000000012B02
+t1368980288
+s76546
+
+N/Users/johnny/development/phonegap/phonegap-ball/phongap-ball/Resources/splash/Default-Portrait~ipad.png
+c000000005198FB4000000000000085E6
+t1368980288
+s34278
+
+N/Users/johnny/development/phonegap/phonegap-ball/phongap-ball/Resources/splash/Default@2x~iphone.png
+c000000005198FB400000000000007323
+t1368980288
+s29475
+
+N/Users/johnny/development/phonegap/phonegap-ball/phongap-ball/Resources/splash/Default~iphone.png
+c000000005198FB40000000000000289A
+t1368980288
+s10394
+
+N/Users/johnny/development/phonegap/phonegap-ball/phongap-ball/config.xml
+c000000005198FB400000000000000B6B
+t1368980288
+s2923
+
+N/Users/johnny/development/phonegap/phonegap-ball/phongap-ball/main.m
+c000000005198FB40000000000000045E
+t1368980288
+s1118
+
+N/Users/johnny/development/phonegap/phonegap-ball/phongap-ball/phongap-ball-Prefix.pch
+c000000005198FB4000000000000003C9
+t1368980288
+s969
+
+N/var/folders/mj/1r224_d97w3fndscsqv3wv5r0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/phongap-ball-Prefix-ghgtfennkhbuouestdfkjbwoisdi/phongap-ball-Prefix.pch.pth
+t2
+s0
+
+Nphongap-ball/phongap-ball-Info.plist
+c000000005198FB4000000000000009D4
+t1368980288
+s2516
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciese3518ead3a49b741^b70c90ad3a49b741^---0#1#0#--18"Check dependencies36"C699AFDD-AEDC-43DD-A4C8-90AEB01103EE-
+
+CCompileC build/phongap-ball.build/Debug-iphonesimulator/phongap-ball.build/Objects-normal/i386/AppDelegate.o /Users/johnny/development/phonegap/phonegap-ball/phongap-ball/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s390675118.515464
+e390675118.657693
+r1
+xCompileC
+xbuild/phongap-ball.build/Debug-iphonesimulator/phongap-ball.build/Objects-normal/i386/AppDelegate.o
+x/Users/johnny/development/phonegap/phonegap-ball/phongap-ball/Classes/AppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/johnny/development/phonegap/phonegap-ball/phongap-ball/Classes/AppDelegate.m:80:25: warning: 'useSplashScreen' is deprecated: Deprecated in Cordova 2.5. Add/Remove the SplashScreen plugin instead of setting this property. [-Wdeprecated-declarations]
+o    self.viewController.useSplashScreen = YES;
+o                        ^
+o/Users/johnny/development/phonegap/phonegap-ball/build/include/Cordova/CDVViewController.h:46:47: note: 'useSplashScreen' declared here
+o@property (nonatomic, readwrite, assign) BOOL useSplashScreen CDV_DEPRECATED(2.5, "Add/Remove the SplashScreen plugin instead of setting this property.");
+o                                              ^
+o1 warning generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Compile /Users/johnny/development/phonegap/phonegap-ball/phongap-ball/Classes/AppDelegate.m431b84ae3a49b741^64b2a8ae3a49b741^-690"/Users/johnny/development/phonegap/phonegap-ball/phongap-ball/Classes/AppDelegate.m:80:25: warning: 'useSplashScreen' is deprecated: Deprecated in Cordova 2.5. Add/Remove the SplashScreen plugin instead of setting this property. [-Wdeprecated-declarations]    self.viewController.useSplashScreen = YES;                        ^/Users/johnny/development/phonegap/phonegap-ball/build/include/Cordova/CDVViewController.h:46:47: note: 'useSplashScreen' declared here@property (nonatomic, readwrite, assign) BOOL useSplashScreen CDV_DEPRECATED(2.5, "Add/Remove the SplashScreen plugin instead of setting this property.");                                              ^1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@128"'useSplashScreen' is deprecated: Deprecated in Cordova 2.5. Add/Remove the SplashScreen plugin instead of setting this property.-390675118#18446744073709551615#0#1(2@31"'useSplashScreen' declared here-390675118#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@103"file://localhost/Users/johnny/development/phonegap/phonegap-ball/CordovaLib/Classes/CDVViewController.h0000000000000000^45#46#45#46#1826#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@99"file://localhost/Users/johnny/development/phonegap/phonegap-ball/phongap-ball/Classes/AppDelegate.m0000000000000000^79#24#79#24#2697#0#12"Deprecations--0#0#0#-19%DVTDocumentLocation4@99"file://localhost/Users/johnny/development/phonegap/phonegap-ball/phongap-ball/Classes/AppDelegate.m0000000000000000^3991"CompileC build/phongap-ball.build/Debug-iphonesimulator/phongap-ball.build/Objects-normal/i386/AppDelegate.o phongap-ball/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/johnny/development/phonegap/phonegap-ball    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/share/npm/bin:/usr/local/heroku/bin:/Users/johnny/Library/Haskell/bin:/usr/local/bin:/Users/johnny/Library/Haskell/bin:/Users/johnny/.rbenv/shims:/Users/johnny/.rbenv/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/X11/bin:/usr/texbin:/Users/johnny/Scripts:/Users/johnny/Scripts/git_diff_wrapper:/Users/johnny/Scripts/chotools:/usr/texbin:/Users/johnny/Dropbox/app/chotools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/johnny/development/phonegap/phonegap-ball/build/phongap-ball.build/Debug-iphonesimulator/phongap-ball.build/phongap-ball-generated-files.hmap -I/Users/johnny/development/phonegap/phonegap-ball/build/phongap-ball.build/Debug-iphonesimulator/phongap-ball.build/phongap-ball-own-target-headers.hmap -I/Users/johnny/development/phonegap/phonegap-ball/build/phongap-ball.build/Debug-iphonesimulator/phongap-ball.build/phongap-ball-all-target-headers.hmap -iquote /Users/johnny/development/phonegap/phonegap-ball/build/phongap-ball.build/Debug-iphonesimulator/phongap-ball.build/phongap-ball-project-headers.hmap -I/Users/johnny/development/phonegap/phonegap-ball/build/include -I/Users/johnny/development/phonegap/phonegap-ball/build/usr/local/lib/include -I/Users/johnny/development/phonegap/phonegap-ball/build/UninstalledProducts/include -I/Users/johnny/development/phonegap/phonegap-ball/build -I/Users/johnny/development/phonegap/phonegap-ball/build/phongap-ball.build/Debug-iphonesimulator/phongap-ball.build/DerivedSources/i386 -I/Users/johnny/development/phonegap/phonegap-ball/build/phongap-ball.build/Debug-iphonesimulator/phongap-ball.build/DerivedSources -F/Users/johnny/development/phonegap/phonegap-ball/build -include /var/folders/mj/1r224_d97w3fndscsqv3wv5r0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/phongap-ball-Prefix-ghgtfennkhbuouestdfkjbwoisdi/phongap-ball-Prefix.pch -MMD -MT dependencies -MF /Users/johnny/development/phonegap/phonegap-ball/build/phongap-ball.build/Debug-iphonesimulator/phongap-ball.build/Objects-normal/i386/AppDelegate.d --serialize-diagnostics /Users/johnny/development/phonegap/phonegap-ball/build/phongap-ball.build/Debug-iphonesimulator/phongap-ball.build/Objects-normal/i386/AppDelegate.dia -c /Users/johnny/development/phonegap/phonegap-ball/phongap-ball/Classes/AppDelegate.m -o /Users/johnny/development/phonegap/phonegap-ball/build/phongap-ball.build/Debug-iphonesimulator/phongap-ball.build/Objects-normal/i386/AppDelegate.o36"3949D46B-51EE-44E8-BCC0-8BB3DE8F849C-
+
+CCompileC build/phongap-ball.build/Debug-iphonesimulator/phongap-ball.build/Objects-normal/i386/MainViewController.o /Users/johnny/development/phonegap/phonegap-ball/phongap-ball/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s390675118.583268
+e390675118.728853
+r1
+xCompileC
+xbuild/phongap-ball.build/Debug-iphonesimulator/phongap-ball.build/Objects-normal/i386/MainViewController.o
+x/Users/johnny/development/phonegap/phonegap-ball/phongap-ball/Classes/MainViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"Compile /Users/johnny/development/phonegap/phonegap-ball/phongap-ball/Classes/MainViewController.m008e95ae3a49b741^7fa6baae3a49b741^---0#0#0#-19%DVTDocumentLocation2@106"file://localhost/Users/johnny/development/phonegap/phonegap-ball/phongap-ball/Classes/MainViewController.m0000000000000000^4033"CompileC build/phongap-ball.build/Debug-iphonesimulator/phongap-ball.build/Objects-normal/i386/MainViewController.o phongap-ball/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/johnny/development/phonegap/phonegap-ball    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/share/npm/bin:/usr/local/heroku/bin:/Users/johnny/Library/Haskell/bin:/usr/local/bin:/Users/johnny/Library/Haskell/bin:/Users/johnny/.rbenv/shims:/Users/johnny/.rbenv/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/X11/bin:/usr/texbin:/Users/johnny/Scripts:/Users/johnny/Scripts/git_diff_wrapper:/Users/johnny/Scripts/chotools:/usr/texbin:/Users/johnny/Dropbox/app/chotools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/johnny/development/phonegap/phonegap-ball/build/phongap-ball.build/Debug-iphonesimulator/phongap-ball.build/phongap-ball-generated-files.hmap -I/Users/johnny/development/phonegap/phonegap-ball/build/phongap-ball.build/Debug-iphonesimulator/phongap-ball.build/phongap-ball-own-target-headers.hmap -I/Users/johnny/development/phonegap/phonegap-ball/build/phongap-ball.build/Debug-iphonesimulator/phongap-ball.build/phongap-ball-all-target-headers.hmap -iquote /Users/johnny/development/phonegap/phonegap-ball/build/phongap-ball.build/Debug-iphonesimulator/phongap-ball.build/phongap-ball-project-headers.hmap -I/Users/johnny/development/phonegap/phonegap-ball/build/include -I/Users/johnny/development/phonegap/phonegap-ball/build/usr/local/lib/include -I/Users/johnny/development/phonegap/phonegap-ball/build/UninstalledProducts/include -I/Users/johnny/development/phonegap/phonegap-ball/build -I/Users/johnny/development/phonegap/phonegap-ball/build/phongap-ball.build/Debug-iphonesimulator/phongap-ball.build/DerivedSources/i386 -I/Users/johnny/development/phonegap/phonegap-ball/build/phongap-ball.build/Debug-iphonesimulator/phongap-ball.build/DerivedSources -F/Users/johnny/development/phonegap/phonegap-ball/build -include /var/folders/mj/1r224_d97w3fndscsqv3wv5r0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/phongap-ball-Prefix-ghgtfennkhbuouestdfkjbwoisdi/phongap-ball-Prefix.pch -MMD -MT dependencies -MF /Users/johnny/development/phonegap/phonegap-ball/build/phongap-ball.build/Debug-iphonesimulator/phongap-ball.build/Objects-normal/i386/MainViewController.d --serialize-diagnostics /Users/johnny/development/phonegap/phonegap-ball/build/phongap-ball.build/Debug-iphonesimulator/phongap-ball.build/Objects-normal/i386/MainViewController.dia -c /Users/johnny/development/phonegap/phonegap-ball/phongap-ball/Classes/MainViewController.m -o /Users/johnny/development/phonegap/phonegap-ball/build/phongap-ball.build/Debug-iphonesimulator/phongap-ball.build/Objects-normal/i386/MainViewController.o36"090134C3-9A89-4F05-9225-0A6F58C6B6EB-
+
+CCompileC build/phongap-ball.build/Debug-iphonesimulator/phongap-ball.build/Objects-normal/i386/main.o /Users/johnny/development/phonegap/phonegap-ball/phongap-ball/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s390675118.514952
+e390675118.579215
+r1
+xCompileC
+xbuild/phongap-ball.build/Debug-iphonesimulator/phongap-ball.build/Objects-normal/i386/main.o
+x/Users/johnny/development/phonegap/phonegap-ball/phongap-ball/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"Compile /Users/johnny/development/phonegap/phonegap-ball/phongap-ball/main.mbdff83ae3a49b741^d84a9cae3a49b741^---0#0#0#-19%DVTDocumentLocation2@84"file://localhost/Users/johnny/development/phonegap/phonegap-ball/phongap-ball/main.m0000000000000000^3933"CompileC build/phongap-ball.build/Debug-iphonesimulator/phongap-ball.build/Objects-normal/i386/main.o phongap-ball/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/johnny/development/phonegap/phonegap-ball    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/share/npm/bin:/usr/local/heroku/bin:/Users/johnny/Library/Haskell/bin:/usr/local/bin:/Users/johnny/Library/Haskell/bin:/Users/johnny/.rbenv/shims:/Users/johnny/.rbenv/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/X11/bin:/usr/texbin:/Users/johnny/Scripts:/Users/johnny/Scripts/git_diff_wrapper:/Users/johnny/Scripts/chotools:/usr/texbin:/Users/johnny/Dropbox/app/chotools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/johnny/development/phonegap/phonegap-ball/build/phongap-ball.build/Debug-iphonesimulator/phongap-ball.build/phongap-ball-generated-files.hmap -I/Users/johnny/development/phonegap/phonegap-ball/build/phongap-ball.build/Debug-iphonesimulator/phongap-ball.build/phongap-ball-own-target-headers.hmap -I/Users/johnny/development/phonegap/phonegap-ball/build/phongap-ball.build/Debug-iphonesimulator/phongap-ball.build/phongap-ball-all-target-headers.hmap -iquote /Users/johnny/development/phonegap/phonegap-ball/build/phongap-ball.build/Debug-iphonesimulator/phongap-ball.build/phongap-ball-project-headers.hmap -I/Users/johnny/development/phonegap/phonegap-ball/build/include -I/Users/johnny/development/phonegap/phonegap-ball/build/usr/local/lib/include -I/Users/johnny/development/phonegap/phonegap-ball/build/UninstalledProducts/include -I/Users/johnny/development/phonegap/phonegap-ball/build -I/Users/johnny/development/phonegap/phonegap-ball/build/phongap-ball.build/Debug-iphonesimulator/phongap-ball.build/DerivedSources/i386 -I/Users/johnny/development/phonegap/phonegap-ball/build/phongap-ball.build/Debug-iphonesimulator/phongap-ball.build/DerivedSources -F/Users/johnny/development/phonegap/phonegap-ball/build -include /var/folders/mj/1r224_d97w3fndscsqv3wv5r0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/phongap-ball-Prefix-ghgtfennkhbuouestdfkjbwoisdi/phongap-ball-Prefix.pch -MMD -MT dependencies -MF /Users/johnny/development/phonegap/phonegap-ball/build/phongap-ball.build/Debug-iphonesimulator/phongap-ball.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/johnny/development/phonegap/phonegap-ball/build/phongap-ball.build/Debug-iphonesimulator/phongap-ball.build/Objects-normal/i386/main.dia -c /Users/johnny/development/phonegap/phonegap-ball/phongap-ball/main.m -o /Users/johnny/development/phonegap/phonegap-ball/build/phongap-ball.build/Debug-iphonesimulator/phongap-ball.build/Objects-normal/i386/main.o36"85A23A6E-259A-4547-98C3-39DB868AFC6B-
+
+CCompileXIB /Users/johnny/development/phonegap/phonegap-ball/phongap-ball/Classes/MainViewController.xib
+s390675117.836342
+e390675117.890629
+r1
+xCompileXIB
+x/Users/johnny/development/phonegap/phonegap-ball/phongap-ball/Classes/MainViewController.xib
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"Compiling /Users/johnny/development/phonegap/phonegap-ball/phongap-ball/Classes/MainViewController.xibeb38d6ad3a49b741^4641e4ad3a49b741^---0#0#0#-19%DVTDocumentLocation2@108"file://localhost/Users/johnny/development/phonegap/phonegap-ball/phongap-ball/Classes/MainViewController.xib0000000000000000^1312"CompileXIB phongap-ball/Classes/MainViewController.xib    cd /Users/johnny/development/phonegap/phonegap-ball    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 5.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/share/npm/bin:/usr/local/heroku/bin:/Users/johnny/Library/Haskell/bin:/usr/local/bin:/Users/johnny/Library/Haskell/bin:/Users/johnny/.rbenv/shims:/Users/johnny/.rbenv/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/X11/bin:/usr/texbin:/Users/johnny/Scripts:/Users/johnny/Scripts/git_diff_wrapper:/Users/johnny/Scripts/chotools:/usr/texbin:/Users/johnny/Dropbox/app/chotools"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/johnny/development/phonegap/phonegap-ball/build/phongap-ball.app/MainViewController.nib /Users/johnny/development/phonegap/phonegap-ball/phongap-ball/Classes/MainViewController.xib --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk36"944B8732-0715-46FB-809A-16C6D4013BCF-
+
+CCopyStringsFile /Users/johnny/development/phonegap/phonegap-ball/build/phongap-ball.app/de.lproj/Localizable.strings phongap-ball/Resources/de.lproj/Localizable.strings
+s390675117.950113
+e390675117.959707
+r1
+xCopyStringsFile
+x/Users/johnny/development/phonegap/phonegap-ball/build/phongap-ball.app/de.lproj/Localizable.strings
+xphongap-ball/Resources/de.lproj/Localizable.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection56"Copy phongap-ball/Resources/de.lproj/Localizable.strings9562f3ad3a49b741^60aef5ad3a49b741^---0#0#0#-19%DVTDocumentLocation2@116"file://localhost/Users/johnny/development/phonegap/phonegap-ball/phongap-ball/Resources/de.lproj/Localizable.strings0000000000000000^971"CopyStringsFile build/phongap-ball.app/de.lproj/Localizable.strings phongap-ball/Resources/de.lproj/Localizable.strings    cd /Users/johnny/development/phonegap/phonegap-ball    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/share/npm/bin:/usr/local/heroku/bin:/Users/johnny/Library/Haskell/bin:/usr/local/bin:/Users/johnny/Library/Haskell/bin:/Users/johnny/.rbenv/shims:/Users/johnny/.rbenv/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/X11/bin:/usr/texbin:/Users/johnny/Scripts:/Users/johnny/Scripts/git_diff_wrapper:/Users/johnny/Scripts/chotools:/usr/texbin:/Users/johnny/Dropbox/app/chotools"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/johnny/development/phonegap/phonegap-ball/build/phongap-ball.app/de.lproj -- phongap-ball/Resources/de.lproj/Localizable.strings36"8160227B-9C81-4C69-9939-7E41834BE6F7-
+
+CCopyStringsFile /Users/johnny/development/phonegap/phonegap-ball/build/phongap-ball.app/en.lproj/Localizable.strings phongap-ball/Resources/en.lproj/Localizable.strings
+s390675117.822336
+e390675117.829915
+r1
+xCopyStringsFile
+x/Users/johnny/development/phonegap/phonegap-ball/build/phongap-ball.app/en.lproj/Localizable.strings
+xphongap-ball/Resources/en.lproj/Localizable.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection56"Copy phongap-ball/Resources/en.lproj/Localizable.strings3011d3ad3a49b741^db8bd4ad3a49b741^---0#0#0#-19%DVTDocumentLocation2@116"file://localhost/Users/johnny/development/phonegap/phonegap-ball/phongap-ball/Resources/en.lproj/Localizable.strings0000000000000000^971"CopyStringsFile build/phongap-ball.app/en.lproj/Localizable.strings phongap-ball/Resources/en.lproj/Localizable.strings    cd /Users/johnny/development/phonegap/phonegap-ball    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/share/npm/bin:/usr/local/heroku/bin:/Users/johnny/Library/Haskell/bin:/usr/local/bin:/Users/johnny/Library/Haskell/bin:/Users/johnny/.rbenv/shims:/Users/johnny/.rbenv/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/X11/bin:/usr/texbin:/Users/johnny/Scripts:/Users/johnny/Scripts/git_diff_wrapper:/Users/johnny/Scripts/chotools:/usr/texbin:/Users/johnny/Dropbox/app/chotools"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/johnny/development/phonegap/phonegap-ball/build/phongap-ball.app/en.lproj -- phongap-ball/Resources/en.lproj/Localizable.strings36"DF5A9FAD-6869-416E-B52F-6065ADFE8172-
+
+CCopyStringsFile /Users/johnny/development/phonegap/phonegap-ball/build/phongap-ball.app/es.lproj/Localizable.strings phongap-ball/Resources/es.lproj/Localizable.strings
+s390675117.831610
+e390675117.835041
+r1
+xCopyStringsFile
+x/Users/johnny/development/phonegap/phonegap-ball/build/phongap-ball.app/es.lproj/Localizable.strings
+xphongap-ball/Resources/es.lproj/Localizable.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection56"Copy phongap-ball/Resources/es.lproj/Localizable.stringse205d5ad3a49b741^72c5d5ad3a49b741^---0#0#0#-19%DVTDocumentLocation2@116"file://localhost/Users/johnny/development/phonegap/phonegap-ball/phongap-ball/Resources/es.lproj/Localizable.strings0000000000000000^971"CopyStringsFile build/phongap-ball.app/es.lproj/Localizable.strings phongap-ball/Resources/es.lproj/Localizable.strings    cd /Users/johnny/development/phonegap/phonegap-ball    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/share/npm/bin:/usr/local/heroku/bin:/Users/johnny/Library/Haskell/bin:/usr/local/bin:/Users/johnny/Library/Haskell/bin:/Users/johnny/.rbenv/shims:/Users/johnny/.rbenv/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/X11/bin:/usr/texbin:/Users/johnny/Scripts:/Users/johnny/Scripts/git_diff_wrapper:/Users/johnny/Scripts/chotools:/usr/texbin:/Users/johnny/Dropbox/app/chotools"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/johnny/development/phonegap/phonegap-ball/build/phongap-ball.app/es.lproj -- phongap-ball/Resources/es.lproj/Localizable.strings36"5685E39A-4ED1-4B07-B27C-D424877CC87F-
+
+CCopyStringsFile /Users/johnny/development/phonegap/phonegap-ball/build/phongap-ball.app/se.lproj/Localizable.strings phongap-ball/Resources/se.lproj/Localizable.strings
+s390675117.961317
+e390675117.969032
+r1
+xCopyStringsFile
+x/Users/johnny/development/phonegap/phonegap-ball/build/phongap-ball.app/se.lproj/Localizable.strings
+xphongap-ball/Resources/se.lproj/Localizable.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection56"Copy phongap-ball/Resources/se.lproj/Localizable.stringscd3ff6ad3a49b741^4912f8ad3a49b741^---0#0#0#-19%DVTDocumentLocation2@116"file://localhost/Users/johnny/development/phonegap/phonegap-ball/phongap-ball/Resources/se.lproj/Localizable.strings0000000000000000^971"CopyStringsFile build/phongap-ball.app/se.lproj/Localizable.strings phongap-ball/Resources/se.lproj/Localizable.strings    cd /Users/johnny/development/phonegap/phonegap-ball    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/share/npm/bin:/usr/local/heroku/bin:/Users/johnny/Library/Haskell/bin:/usr/local/bin:/Users/johnny/Library/Haskell/bin:/Users/johnny/.rbenv/shims:/Users/johnny/.rbenv/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/X11/bin:/usr/texbin:/Users/johnny/Scripts:/Users/johnny/Scripts/git_diff_wrapper:/Users/johnny/Scripts/chotools:/usr/texbin:/Users/johnny/Dropbox/app/chotools"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/johnny/development/phonegap/phonegap-ball/build/phongap-ball.app/se.lproj -- phongap-ball/Resources/se.lproj/Localizable.strings36"09860B29-EC10-4D78-B0B0-94D7F95A9C52-
+
+CCpResource phongap-ball/Resources/Capture.bundle build/phongap-ball.app/Capture.bundle
+s390675117.809274
+e390675117.820508
+r1
+xCpResource
+xphongap-ball/Resources/Capture.bundle
+xbuild/phongap-ball.app/Capture.bundle
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection42"Copy build/phongap-ball.app/Capture.bundlefe46cfad3a49b741^3b1bd2ad3a49b741^---0#0#0#-19%DVTDocumentLocation2@102"file://localhost/Users/johnny/development/phonegap/phonegap-ball/build/phongap-ball.app/Capture.bundle000000000080d041^983"CpResource phongap-ball/Resources/Capture.bundle build/phongap-ball.app/Capture.bundle    cd /Users/johnny/development/phonegap/phonegap-ball    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/share/npm/bin:/usr/local/heroku/bin:/Users/johnny/Library/Haskell/bin:/usr/local/bin:/Users/johnny/Library/Haskell/bin:/Users/johnny/.rbenv/shims:/Users/johnny/.rbenv/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/X11/bin:/usr/texbin:/Users/johnny/Scripts:/Users/johnny/Scripts/git_diff_wrapper:/Users/johnny/Scripts/chotools:/usr/texbin:/Users/johnny/Dropbox/app/chotools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/johnny/development/phonegap/phonegap-ball/phongap-ball/Resources/Capture.bundle /Users/johnny/development/phonegap/phonegap-ball/build/phongap-ball.app36"DC982ECF-D5B4-404C-8CF4-6D6B984F148E-
+
+CCpResource phongap-ball/Resources/icons/icon-72.png build/phongap-ball.app/icon-72.png
+s390675117.794864
+e390675117.797876
+r1
+xCpResource
+xphongap-ball/Resources/icons/icon-72.png
+xbuild/phongap-ball.app/icon-72.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection39"Copy build/phongap-ball.app/icon-72.pngd196cbad3a49b741^8941ccad3a49b741^---0#0#0#-19%DVTDocumentLocation2@99"file://localhost/Users/johnny/development/phonegap/phonegap-ball/build/phongap-ball.app/icon-72.png000000000080d041^986"CpResource phongap-ball/Resources/icons/icon-72.png build/phongap-ball.app/icon-72.png    cd /Users/johnny/development/phonegap/phonegap-ball    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/share/npm/bin:/usr/local/heroku/bin:/Users/johnny/Library/Haskell/bin:/usr/local/bin:/Users/johnny/Library/Haskell/bin:/Users/johnny/.rbenv/shims:/Users/johnny/.rbenv/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/X11/bin:/usr/texbin:/Users/johnny/Scripts:/Users/johnny/Scripts/git_diff_wrapper:/Users/johnny/Scripts/chotools:/usr/texbin:/Users/johnny/Dropbox/app/chotools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/johnny/development/phonegap/phonegap-ball/phongap-ball/Resources/icons/icon-72.png /Users/johnny/development/phonegap/phonegap-ball/build/phongap-ball.app36"46C9D2E4-0EFB-490A-80F2-61DB614ECF5E-
+
+CCpResource phongap-ball/Resources/icons/icon-72@2x.png build/phongap-ball.app/icon-72@2x.png
+s390675118.037102
+e390675118.049236
+r1
+xCpResource
+xphongap-ball/Resources/icons/icon-72@2x.png
+xbuild/phongap-ball.app/icon-72@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection42"Copy build/phongap-ball.app/icon-72@2x.png16c309ae3a49b741^daae0cae3a49b741^---0#0#0#-19%DVTDocumentLocation2@102"file://localhost/Users/johnny/development/phonegap/phonegap-ball/build/phongap-ball.app/icon-72@2x.png000000000080d041^1001"CpResource "phongap-ball/Resources/icons/icon-72@2x.png" "build/phongap-ball.app/icon-72@2x.png"    cd /Users/johnny/development/phonegap/phonegap-ball    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/share/npm/bin:/usr/local/heroku/bin:/Users/johnny/Library/Haskell/bin:/usr/local/bin:/Users/johnny/Library/Haskell/bin:/Users/johnny/.rbenv/shims:/Users/johnny/.rbenv/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/X11/bin:/usr/texbin:/Users/johnny/Scripts:/Users/johnny/Scripts/git_diff_wrapper:/Users/johnny/Scripts/chotools:/usr/texbin:/Users/johnny/Dropbox/app/chotools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/johnny/development/phonegap/phonegap-ball/phongap-ball/Resources/icons/icon-72@2x.png" /Users/johnny/development/phonegap/phonegap-ball/build/phongap-ball.app36"34E84D92-EB20-4B78-BE0D-832BDF47CEE9-
+
+CCpResource phongap-ball/Resources/icons/icon.png build/phongap-ball.app/icon.png
+s390675117.799258
+e390675117.802837
+r1
+xCpResource
+xphongap-ball/Resources/icons/icon.png
+xbuild/phongap-ball.app/icon.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection36"Copy build/phongap-ball.app/icon.png24b9ccad3a49b741^7287cdad3a49b741^---0#0#0#-19%DVTDocumentLocation2@96"file://localhost/Users/johnny/development/phonegap/phonegap-ball/build/phongap-ball.app/icon.png000000000080d041^977"CpResource phongap-ball/Resources/icons/icon.png build/phongap-ball.app/icon.png    cd /Users/johnny/development/phonegap/phonegap-ball    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/share/npm/bin:/usr/local/heroku/bin:/Users/johnny/Library/Haskell/bin:/usr/local/bin:/Users/johnny/Library/Haskell/bin:/Users/johnny/.rbenv/shims:/Users/johnny/.rbenv/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/X11/bin:/usr/texbin:/Users/johnny/Scripts:/Users/johnny/Scripts/git_diff_wrapper:/Users/johnny/Scripts/chotools:/usr/texbin:/Users/johnny/Dropbox/app/chotools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/johnny/development/phonegap/phonegap-ball/phongap-ball/Resources/icons/icon.png /Users/johnny/development/phonegap/phonegap-ball/build/phongap-ball.app36"8A2C394C-6267-417E-93A9-2507986DB9C0-
+
+CCpResource phongap-ball/Resources/icons/icon@2x.png build/phongap-ball.app/icon@2x.png
+s390675117.804112
+e390675117.807930
+r1
+xCpResource
+xphongap-ball/Resources/icons/icon@2x.png
+xbuild/phongap-ball.app/icon@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection39"Copy build/phongap-ball.app/icon@2x.png06f5cdad3a49b741^8dd5cead3a49b741^---0#0#0#-19%DVTDocumentLocation2@99"file://localhost/Users/johnny/development/phonegap/phonegap-ball/build/phongap-ball.app/icon@2x.png000000000080d041^992"CpResource "phongap-ball/Resources/icons/icon@2x.png" "build/phongap-ball.app/icon@2x.png"    cd /Users/johnny/development/phonegap/phonegap-ball    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/share/npm/bin:/usr/local/heroku/bin:/Users/johnny/Library/Haskell/bin:/usr/local/bin:/Users/johnny/Library/Haskell/bin:/Users/johnny/.rbenv/shims:/Users/johnny/.rbenv/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/X11/bin:/usr/texbin:/Users/johnny/Scripts:/Users/johnny/Scripts/git_diff_wrapper:/Users/johnny/Scripts/chotools:/usr/texbin:/Users/johnny/Dropbox/app/chotools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/johnny/development/phonegap/phonegap-ball/phongap-ball/Resources/icons/icon@2x.png" /Users/johnny/development/phonegap/phonegap-ball/build/phongap-ball.app36"5E41A613-D352-45C9-AB34-8B53EAEB4716-
+
+CCpResource phongap-ball/Resources/splash/Default-568h@2x~iphone.png build/phongap-ball.app/Default-568h@2x~iphone.png
+s390675118.023038
+e390675118.026075
+r1
+xCpResource
+xphongap-ball/Resources/splash/Default-568h@2x~iphone.png
+xbuild/phongap-ball.app/Default-568h@2x~iphone.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection54"Copy build/phongap-ball.app/Default-568h@2x~iphone.png640206ae3a49b741^1d0409ae3a49b741^---0#0#0#-19%DVTDocumentLocation2@114"file://localhost/Users/johnny/development/phonegap/phonegap-ball/build/phongap-ball.app/Default-568h@2x~iphone.png000000000080d041^1039"CpResource "phongap-ball/Resources/splash/Default-568h@2x~iphone.png" "build/phongap-ball.app/Default-568h@2x~iphone.png"    cd /Users/johnny/development/phonegap/phonegap-ball    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/share/npm/bin:/usr/local/heroku/bin:/Users/johnny/Library/Haskell/bin:/usr/local/bin:/Users/johnny/Library/Haskell/bin:/Users/johnny/.rbenv/shims:/Users/johnny/.rbenv/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/X11/bin:/usr/texbin:/Users/johnny/Scripts:/Users/johnny/Scripts/git_diff_wrapper:/Users/johnny/Scripts/chotools:/usr/texbin:/Users/johnny/Dropbox/app/chotools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/johnny/development/phonegap/phonegap-ball/phongap-ball/Resources/splash/Default-568h@2x~iphone.png" /Users/johnny/development/phonegap/phonegap-ball/build/phongap-ball.app36"E36A369F-1091-4259-A22A-3DF35A97E038-
+
+CCpResource phongap-ball/Resources/splash/Default-Landscape@2x~ipad.png build/phongap-ball.app/Default-Landscape@2x~ipad.png
+s390675117.970346
+e390675117.976646
+r1
+xCpResource
+xphongap-ball/Resources/splash/Default-Landscape@2x~ipad.png
+xbuild/phongap-ball.app/Default-Landscape@2x~ipad.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Copy build/phongap-ball.app/Default-Landscape@2x~ipad.png2387f8ad3a49b741^4790faad3a49b741^---0#0#0#-19%DVTDocumentLocation2@117"file://localhost/Users/johnny/development/phonegap/phonegap-ball/build/phongap-ball.app/Default-Landscape@2x~ipad.png000000000080d041^1048"CpResource "phongap-ball/Resources/splash/Default-Landscape@2x~ipad.png" "build/phongap-ball.app/Default-Landscape@2x~ipad.png"    cd /Users/johnny/development/phonegap/phonegap-ball    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/share/npm/bin:/usr/local/heroku/bin:/Users/johnny/Library/Haskell/bin:/usr/local/bin:/Users/johnny/Library/Haskell/bin:/Users/johnny/.rbenv/shims:/Users/johnny/.rbenv/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/X11/bin:/usr/texbin:/Users/johnny/Scripts:/Users/johnny/Scripts/git_diff_wrapper:/Users/johnny/Scripts/chotools:/usr/texbin:/Users/johnny/Dropbox/app/chotools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/johnny/development/phonegap/phonegap-ball/phongap-ball/Resources/splash/Default-Landscape@2x~ipad.png" /Users/johnny/development/phonegap/phonegap-ball/build/phongap-ball.app36"35E051D1-353B-4D2B-AF17-588C3748764D-
+
+CCpResource phongap-ball/Resources/splash/Default-Landscape~ipad.png build/phongap-ball.app/Default-Landscape~ipad.png
+s390675117.978709
+e390675117.982124
+r1
+xCpResource
+xphongap-ball/Resources/splash/Default-Landscape~ipad.png
+xbuild/phongap-ball.app/Default-Landscape~ipad.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection54"Copy build/phongap-ball.app/Default-Landscape~ipad.pngc1c5faad3a49b741^2480fbad3a49b741^---0#0#0#-19%DVTDocumentLocation2@114"file://localhost/Users/johnny/development/phonegap/phonegap-ball/build/phongap-ball.app/Default-Landscape~ipad.png000000000080d041^1039"CpResource "phongap-ball/Resources/splash/Default-Landscape~ipad.png" "build/phongap-ball.app/Default-Landscape~ipad.png"    cd /Users/johnny/development/phonegap/phonegap-ball    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/share/npm/bin:/usr/local/heroku/bin:/Users/johnny/Library/Haskell/bin:/usr/local/bin:/Users/johnny/Library/Haskell/bin:/Users/johnny/.rbenv/shims:/Users/johnny/.rbenv/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/X11/bin:/usr/texbin:/Users/johnny/Scripts:/Users/johnny/Scripts/git_diff_wrapper:/Users/johnny/Scripts/chotools:/usr/texbin:/Users/johnny/Dropbox/app/chotools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/johnny/development/phonegap/phonegap-ball/phongap-ball/Resources/splash/Default-Landscape~ipad.png" /Users/johnny/development/phonegap/phonegap-ball/build/phongap-ball.app36"6E6DC850-2AE7-4B06-8BF7-9C3FCC1E7C44-
+
+CCpResource phongap-ball/Resources/splash/Default-Portrait@2x~ipad.png build/phongap-ball.app/Default-Portrait@2x~ipad.png
+s390675117.987248
+e390675118.000628
+r1
+xCpResource
+xphongap-ball/Resources/splash/Default-Portrait@2x~ipad.png
+xbuild/phongap-ball.app/Default-Portrait@2x~ipad.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection56"Copy build/phongap-ball.app/Default-Portrait@2x~ipad.pngfdd8fcad3a49b741^de3900ae3a49b741^---0#0#0#-19%DVTDocumentLocation2@116"file://localhost/Users/johnny/development/phonegap/phonegap-ball/build/phongap-ball.app/Default-Portrait@2x~ipad.png000000000080d041^1045"CpResource "phongap-ball/Resources/splash/Default-Portrait@2x~ipad.png" "build/phongap-ball.app/Default-Portrait@2x~ipad.png"    cd /Users/johnny/development/phonegap/phonegap-ball    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/share/npm/bin:/usr/local/heroku/bin:/Users/johnny/Library/Haskell/bin:/usr/local/bin:/Users/johnny/Library/Haskell/bin:/Users/johnny/.rbenv/shims:/Users/johnny/.rbenv/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/X11/bin:/usr/texbin:/Users/johnny/Scripts:/Users/johnny/Scripts/git_diff_wrapper:/Users/johnny/Scripts/chotools:/usr/texbin:/Users/johnny/Dropbox/app/chotools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/johnny/development/phonegap/phonegap-ball/phongap-ball/Resources/splash/Default-Portrait@2x~ipad.png" /Users/johnny/development/phonegap/phonegap-ball/build/phongap-ball.app36"30DC0BBA-C5DE-4257-808A-8D2D94DF839F-
+
+CCpResource phongap-ball/Resources/splash/Default-Portrait~ipad.png build/phongap-ball.app/Default-Portrait~ipad.png
+s390675118.004067
+e390675118.011136
+r1
+xCpResource
+xphongap-ball/Resources/splash/Default-Portrait~ipad.png
+xbuild/phongap-ball.app/Default-Portrait~ipad.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection53"Copy build/phongap-ball.app/Default-Portrait~ipad.pngaa2901ae3a49b741^7e1a03ae3a49b741^---0#0#0#-19%DVTDocumentLocation2@113"file://localhost/Users/johnny/development/phonegap/phonegap-ball/build/phongap-ball.app/Default-Portrait~ipad.png000000000080d041^1036"CpResource "phongap-ball/Resources/splash/Default-Portrait~ipad.png" "build/phongap-ball.app/Default-Portrait~ipad.png"    cd /Users/johnny/development/phonegap/phonegap-ball    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/share/npm/bin:/usr/local/heroku/bin:/Users/johnny/Library/Haskell/bin:/usr/local/bin:/Users/johnny/Library/Haskell/bin:/Users/johnny/.rbenv/shims:/Users/johnny/.rbenv/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/X11/bin:/usr/texbin:/Users/johnny/Scripts:/Users/johnny/Scripts/git_diff_wrapper:/Users/johnny/Scripts/chotools:/usr/texbin:/Users/johnny/Dropbox/app/chotools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/johnny/development/phonegap/phonegap-ball/phongap-ball/Resources/splash/Default-Portrait~ipad.png" /Users/johnny/development/phonegap/phonegap-ball/build/phongap-ball.app36"64696C19-4179-407C-B86E-FEAD656787B1-
+
+CCpResource phongap-ball/Resources/splash/Default@2x~iphone.png build/phongap-ball.app/Default@2x~iphone.png
+s390675118.012894
+e390675118.016538
+r1
+xCpResource
+xphongap-ball/Resources/splash/Default@2x~iphone.png
+xbuild/phongap-ball.app/Default@2x~iphone.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection49"Copy build/phongap-ball.app/Default@2x~iphone.png209c03ae3a49b741^479204ae3a49b741^---0#0#0#-19%DVTDocumentLocation2@109"file://localhost/Users/johnny/development/phonegap/phonegap-ball/build/phongap-ball.app/Default@2x~iphone.png000000000080d041^1024"CpResource "phongap-ball/Resources/splash/Default@2x~iphone.png" "build/phongap-ball.app/Default@2x~iphone.png"    cd /Users/johnny/development/phonegap/phonegap-ball    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/share/npm/bin:/usr/local/heroku/bin:/Users/johnny/Library/Haskell/bin:/usr/local/bin:/Users/johnny/Library/Haskell/bin:/Users/johnny/.rbenv/shims:/Users/johnny/.rbenv/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/X11/bin:/usr/texbin:/Users/johnny/Scripts:/Users/johnny/Scripts/git_diff_wrapper:/Users/johnny/Scripts/chotools:/usr/texbin:/Users/johnny/Dropbox/app/chotools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/johnny/development/phonegap/phonegap-ball/phongap-ball/Resources/splash/Default@2x~iphone.png" /Users/johnny/development/phonegap/phonegap-ball/build/phongap-ball.app36"D8F2FEBA-F394-4854-9B0C-B8ABEAD4CD19-
+
+CCpResource phongap-ball/Resources/splash/Default~iphone.png build/phongap-ball.app/Default~iphone.png
+s390675118.018425
+e390675118.021789
+r1
+xCpResource
+xphongap-ball/Resources/splash/Default~iphone.png
+xbuild/phongap-ball.app/Default~iphone.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection46"Copy build/phongap-ball.app/Default~iphone.pngaed304ae3a49b741^9da005ae3a49b741^---0#0#0#-19%DVTDocumentLocation2@106"file://localhost/Users/johnny/development/phonegap/phonegap-ball/build/phongap-ball.app/Default~iphone.png000000000080d041^1015"CpResource "phongap-ball/Resources/splash/Default~iphone.png" "build/phongap-ball.app/Default~iphone.png"    cd /Users/johnny/development/phonegap/phonegap-ball    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/share/npm/bin:/usr/local/heroku/bin:/Users/johnny/Library/Haskell/bin:/usr/local/bin:/Users/johnny/Library/Haskell/bin:/Users/johnny/.rbenv/shims:/Users/johnny/.rbenv/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/X11/bin:/usr/texbin:/Users/johnny/Scripts:/Users/johnny/Scripts/git_diff_wrapper:/Users/johnny/Scripts/chotools:/usr/texbin:/Users/johnny/Dropbox/app/chotools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/johnny/development/phonegap/phonegap-ball/phongap-ball/Resources/splash/Default~iphone.png" /Users/johnny/development/phonegap/phonegap-ball/build/phongap-ball.app36"D7044E64-6315-4B55-A39C-2141DA8D26B6-
+
+CCpResource phongap-ball/config.xml build/phongap-ball.app/config.xml
+s390675117.789906
+e390675117.793647
+r1
+xCpResource
+xphongap-ball/config.xml
+xbuild/phongap-ball.app/config.xml
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection38"Copy build/phongap-ball.app/config.xmlbe69caad3a49b741^bd36cbad3a49b741^---0#0#0#-19%DVTDocumentLocation2@98"file://localhost/Users/johnny/development/phonegap/phonegap-ball/build/phongap-ball.app/config.xml000000000080d041^951"CpResource phongap-ball/config.xml build/phongap-ball.app/config.xml    cd /Users/johnny/development/phonegap/phonegap-ball    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/share/npm/bin:/usr/local/heroku/bin:/Users/johnny/Library/Haskell/bin:/usr/local/bin:/Users/johnny/Library/Haskell/bin:/Users/johnny/.rbenv/shims:/Users/johnny/.rbenv/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/X11/bin:/usr/texbin:/Users/johnny/Scripts:/Users/johnny/Scripts/git_diff_wrapper:/Users/johnny/Scripts/chotools:/usr/texbin:/Users/johnny/Dropbox/app/chotools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/johnny/development/phonegap/phonegap-ball/phongap-ball/config.xml /Users/johnny/development/phonegap/phonegap-ball/build/phongap-ball.app36"142B8F9D-73AB-4B6C-9A06-A395FAD33C16-
+
+CGenerateDSYMFile /Users/johnny/development/phonegap/phonegap-ball/build/phongap-ball.app.dSYM /Users/johnny/development/phonegap/phonegap-ball/build/phongap-ball.app/phongap-ball
+s390675118.919385
+e390675119.082023
+r1
+xGenerateDSYMFile
+x/Users/johnny/development/phonegap/phonegap-ball/build/phongap-ball.app.dSYM
+x/Users/johnny/development/phonegap/phonegap-ball/build/phongap-ball.app/phongap-ball
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Generate /Users/johnny/development/phonegap/phonegap-ball/build/phongap-ball.app.dSYM817aebae3a49b741^850b15af3a49b741^---0#0#0#-19%DVTDocumentLocation2@92"file://localhost/Users/johnny/development/phonegap/phonegap-ball/build/phongap-ball.app.dSYM000000000080d041^971"GenerateDSYMFile build/phongap-ball.app.dSYM build/phongap-ball.app/phongap-ball    cd /Users/johnny/development/phonegap/phonegap-ball    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/share/npm/bin:/usr/local/heroku/bin:/Users/johnny/Library/Haskell/bin:/usr/local/bin:/Users/johnny/Library/Haskell/bin:/Users/johnny/.rbenv/shims:/Users/johnny/.rbenv/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/X11/bin:/usr/texbin:/Users/johnny/Scripts:/Users/johnny/Scripts/git_diff_wrapper:/Users/johnny/Scripts/chotools:/usr/texbin:/Users/johnny/Dropbox/app/chotools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/johnny/development/phonegap/phonegap-ball/build/phongap-ball.app/phongap-ball -o /Users/johnny/development/phonegap/phonegap-ball/build/phongap-ball.app.dSYM36"9A164737-845F-4434-ADB3-FAD04C3CE150-
+
+CLd /Users/johnny/development/phonegap/phonegap-ball/build/phongap-ball.app/phongap-ball normal i386
+s390675118.735796
+e390675118.911876
+r1
+xLd
+x/Users/johnny/development/phonegap/phonegap-ball/build/phongap-ball.app/phongap-ball
+xnormal
+xi386
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Link /Users/johnny/development/phonegap/phonegap-ball/build/phongap-ball.app/phongap-ball7b82bcae3a49b741^2a71e9ae3a49b741^---0#0#0#--2022"Ld build/phongap-ball.app/phongap-ball normal i386    cd /Users/johnny/development/phonegap/phonegap-ball    setenv IPHONEOS_DEPLOYMENT_TARGET 5.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/share/npm/bin:/usr/local/heroku/bin:/Users/johnny/Library/Haskell/bin:/usr/local/bin:/Users/johnny/Library/Haskell/bin:/Users/johnny/.rbenv/shims:/Users/johnny/.rbenv/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/X11/bin:/usr/texbin:/Users/johnny/Scripts:/Users/johnny/Scripts/git_diff_wrapper:/Users/johnny/Scripts/chotools:/usr/texbin:/Users/johnny/Dropbox/app/chotools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -L/Users/johnny/development/phonegap/phonegap-ball/build -F/Users/johnny/development/phonegap/phonegap-ball/build -filelist /Users/johnny/development/phonegap/phonegap-ball/build/phongap-ball.build/Debug-iphonesimulator/phongap-ball.build/Objects-normal/i386/phongap-ball.LinkFileList -Xlinker -objc_abi_version -Xlinker 2 -weak_framework CoreFoundation -weak_framework UIKit -weak_framework AVFoundation -weak_framework CoreMedia -weak-lSystem -all_load -Obj-C -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=5.0 -framework AssetsLibrary /Users/johnny/development/phonegap/phonegap-ball/build/libCordova.a -framework Foundation -weak_framework UIKit -framework CoreGraphics -framework AddressBook -framework AddressBookUI -framework AudioToolbox -weak_framework AVFoundation -framework CFNetwork -framework CoreLocation -framework MediaPlayer -framework QuartzCore -framework SystemConfiguration -framework MobileCoreServices -weak_framework CoreMedia -o /Users/johnny/development/phonegap/phonegap-ball/build/phongap-ball.app/phongap-ball36"69C68A4B-D430-4A08-9DD3-6490C58650A8-
+
+CPhaseScriptExecution "Copy www directory" /Users/johnny/development/phonegap/phonegap-ball/build/phongap-ball.build/Debug-iphonesimulator/phongap-ball.build/Script-304B58A110DAC018002A0835.sh
+s390675117.608071
+e390675117.781313
+r1
+xPhaseScriptExecution
+xCopy www directory
+x/Users/johnny/development/phonegap/phonegap-ball/build/phongap-ball.build/Debug-iphonesimulator/phongap-ball.build/Script-304B58A110DAC018002A0835.sh
+o
+oreal	0m0.132s
+ouser	0m0.026s
+osys	0m0.076s
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection44"Run custom shell script 'Copy www directory'795b9dad3a49b741^9851c8ad3a49b741^-42"real	0m0.132suser	0m0.026ssys	0m0.076s3(21%IDEActivityLogMessage2@14"real	0m0.132s-390675117#1#14#-0#-----2@14"user	0m0.026s-390675117#15#14#-0#-----2@13"sys	0m0.076s-390675117#29#13#-0#-----0#0#0#--21234"PhaseScriptExecution "Copy www directory" build/phongap-ball.build/Debug-iphonesimulator/phongap-ball.build/Script-304B58A110DAC018002A0835.sh    cd /Users/johnny/development/phonegap/phonegap-ball    setenv ACTION build    setenv ALTERNATE_GROUP staff    setenv ALTERNATE_MODE u+w,go-w,a+rX    setenv ALTERNATE_OWNER johnny    setenv ALWAYS_SEARCH_USER_PATHS NO    setenv APPLE_INTERNAL_DEVELOPER_DIR /AppleInternal/Developer    setenv APPLE_INTERNAL_DIR /AppleInternal    setenv APPLE_INTERNAL_DOCUMENTATION_DIR /AppleInternal/Documentation    setenv APPLE_INTERNAL_LIBRARY_DIR /AppleInternal/Library    setenv APPLE_INTERNAL_TOOLS /AppleInternal/Developer/Tools    setenv APPLY_RULES_IN_COPY_FILES NO    setenv ARCHS i386    setenv ARCHS_STANDARD_32_BIT i386    setenv ARCHS_UNIVERSAL_IPHONE_OS i386    setenv AVAILABLE_PLATFORMS "iphonesimulator macosx iphoneos"    setenv BUILD_COMPONENTS "headers build"    setenv BUILD_DIR /Users/johnny/development/phonegap/phonegap-ball/build    setenv BUILD_ROOT /Users/johnny/development/phonegap/phonegap-ball/build    setenv BUILD_STYLE     setenv BUILD_VARIANTS normal    setenv BUILT_PRODUCTS_DIR /Users/johnny/development/phonegap/phonegap-ball/build    setenv CACHE_ROOT /var/folders/mj/1r224_d97w3fndscsqv3wv5r0000gn/C/com.apple.Xcode.501    setenv CCHROOT /var/folders/mj/1r224_d97w3fndscsqv3wv5r0000gn/C/com.apple.Xcode.501    setenv CHMOD /bin/chmod    setenv CHOWN /usr/sbin/chown    setenv CLANG_ENABLE_OBJC_ARC NO    setenv CLANG_WARN_CONSTANT_CONVERSION YES    setenv CLANG_WARN_ENUM_CONVERSION YES    setenv CLANG_WARN_INT_CONVERSION YES    setenv CLANG_WARN__DUPLICATE_METHOD_MATCH YES    setenv CLASS_FILE_DIR /Users/johnny/development/phonegap/phonegap-ball/build/phongap-ball.build/Debug-iphonesimulator/phongap-ball.build/JavaClasses    setenv CLEAN_PRECOMPS YES    setenv CLONE_HEADERS NO    setenv CODESIGNING_FOLDER_PATH /Users/johnny/development/phonegap/phonegap-ball/build/phongap-ball.app    setenv COMMAND_MODE legacy    setenv COMPOSITE_SDK_DIRS /var/folders/mj/1r224_d97w3fndscsqv3wv5r0000gn/C/com.apple.Xcode.501/CompositeSDKs    setenv COMPRESS_PNG_FILES YES    setenv CONFIGURATION Debug    setenv CONFIGURATION_BUILD_DIR /Users/johnny/development/phonegap/phonegap-ball/build    setenv CONFIGURATION_TEMP_DIR /Users/johnny/development/phonegap/phonegap-ball/build/phongap-ball.build/Debug-iphonesimulator    setenv CONTENTS_FOLDER_PATH phongap-ball.app    setenv COPYING_PRESERVES_HFS_DATA NO    setenv COPY_PHASE_STRIP NO    setenv COPY_RESOURCES_FROM_STATIC_FRAMEWORKS YES    setenv CP /bin/cp    setenv CURRENT_ARCH i386    setenv CURRENT_VARIANT normal    setenv DEAD_CODE_STRIPPING NO    setenv DEBUGGING_SYMBOLS YES    setenv DEBUG_INFORMATION_FORMAT dwarf-with-dsym    setenv DEFAULT_COMPILER com.apple.compilers.llvm.clang.1_0    setenv DEPLOYMENT_LOCATION NO    setenv DEPLOYMENT_POSTPROCESSING NO    setenv DERIVED_FILES_DIR /Users/johnny/development/phonegap/phonegap-ball/build/phongap-ball.build/Debug-iphonesimulator/phongap-ball.build/DerivedSources    setenv DERIVED_FILE_DIR /Users/johnny/development/phonegap/phonegap-ball/build/phongap-ball.build/Debug-iphonesimulator/phongap-ball.build/DerivedSources    setenv DERIVED_SOURCES_DIR /Users/johnny/development/phonegap/phonegap-ball/build/phongap-ball.build/Debug-iphonesimulator/phongap-ball.build/DerivedSources    setenv DEVELOPER_APPLICATIONS_DIR /Applications/Xcode.app/Contents/Developer/Applications    setenv DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/usr/bin    setenv DEVELOPER_DIR /Applications/Xcode.app/Contents/Developer    setenv DEVELOPER_FRAMEWORKS_DIR /Applications/Xcode.app/Contents/Developer/Library/Frameworks    setenv DEVELOPER_FRAMEWORKS_DIR_QUOTED "\"/Applications/Xcode.app/Contents/Developer/Library/Frameworks\""    setenv DEVELOPER_LIBRARY_DIR /Applications/Xcode.app/Contents/Developer/Library    setenv DEVELOPER_SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs    setenv DEVELOPER_TOOLS_DIR /Applications/Xcode.app/Contents/Developer/Tools    setenv DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/usr    setenv DEVELOPMENT_LANGUAGE English    setenv DOCUMENTATION_FOLDER_PATH phongap-ball.app/English.lproj/Documentation    setenv DO_HEADER_SCANNING_IN_JAM NO    setenv DSTROOT /tmp/phongap-ball.dst    setenv DT_TOOLCHAIN_DIR /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain    setenv DWARF_DSYM_FILE_NAME phongap-ball.app.dSYM    setenv DWARF_DSYM_FILE_SHOULD_ACCOMPANY_PRODUCT NO    setenv DWARF_DSYM_FOLDER_PATH /Users/johnny/development/phonegap/phonegap-ball/build    setenv EFFECTIVE_PLATFORM_NAME -iphonesimulator    setenv ENABLE_HEADER_DEPENDENCIES YES    setenv EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS ".DS_Store .svn .git .hg CVS"    setenv EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES "*.nib *.lproj *.framework *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj"    setenv EXECUTABLES_FOLDER_PATH phongap-ball.app/Executables    setenv EXECUTABLE_FOLDER_PATH phongap-ball.app    setenv EXECUTABLE_NAME phongap-ball    setenv EXECUTABLE_PATH phongap-ball.app/phongap-ball    setenv FILE_LIST /Users/johnny/development/phonegap/phonegap-ball/build/phongap-ball.build/Debug-iphonesimulator/phongap-ball.build/Objects/LinkFileList    setenv FIXED_FILES_DIR /Users/johnny/development/phonegap/phonegap-ball/build/phongap-ball.build/Debug-iphonesimulator/phongap-ball.build/FixedFiles    setenv FRAMEWORKS_FOLDER_PATH phongap-ball.app/Frameworks    setenv FRAMEWORK_FLAG_PREFIX -framework    setenv FRAMEWORK_SEARCH_PATHS "\"/Users/johnny/development/phonegap/phonegap-ball/build\" "    setenv FRAMEWORK_VERSION A    setenv FULL_PRODUCT_NAME phongap-ball.app    setenv GCC3_VERSION 3.3    setenv GCC_C_LANGUAGE_STANDARD c99    setenv GCC_DYNAMIC_NO_PIC NO    setenv GCC_INLINES_ARE_PRIVATE_EXTERN YES    setenv GCC_OBJC_LEGACY_DISPATCH YES    setenv GCC_OPTIMIZATION_LEVEL 0    setenv GCC_PFE_FILE_C_DIALECTS "c objective-c c++ objective-c++"    setenv GCC_PRECOMPILE_PREFIX_HEADER YES    setenv GCC_PREFIX_HEADER phongap-ball/phongap-ball-Prefix.pch    setenv GCC_SYMBOLS_PRIVATE_EXTERN YES    setenv GCC_THUMB_SUPPORT NO    setenv GCC_TREAT_WARNINGS_AS_ERRORS NO    setenv GCC_VERSION com.apple.compilers.llvm.clang.1_0    setenv GCC_VERSION_IDENTIFIER com_apple_compilers_llvm_clang_1_0    setenv GCC_WARN_ABOUT_RETURN_TYPE YES    setenv GCC_WARN_UNINITIALIZED_AUTOS YES    setenv GCC_WARN_UNUSED_VARIABLE YES    setenv GENERATE_MASTER_OBJECT_FILE NO    setenv GENERATE_PKGINFO_FILE YES    setenv GENERATE_PROFILING_CODE NO    setenv GID 20    setenv GROUP staff    setenv HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT YES    setenv HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES YES    setenv HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS YES    setenv HEADERMAP_INCLUDES_PROJECT_HEADERS YES    setenv HEADER_SEARCH_PATHS "\"/Users/johnny/development/phonegap/phonegap-ball/build/include\" \"/Users/johnny/development/phonegap/phonegap-ball/build/usr/local/lib/include\" \"/Users/johnny/development/phonegap/phonegap-ball/build/UninstalledProducts/include\" \"/Users/johnny/development/phonegap/phonegap-ball/build\""    setenv ICONV /usr/bin/iconv    setenv INFOPLIST_EXPAND_BUILD_SETTINGS YES    setenv INFOPLIST_FILE phongap-ball/phongap-ball-Info.plist    setenv INFOPLIST_OUTPUT_FORMAT binary    setenv INFOPLIST_PATH phongap-ball.app/Info.plist    setenv INFOPLIST_PREPROCESS NO    setenv INFOSTRINGS_PATH phongap-ball.app/English.lproj/InfoPlist.strings    setenv INSTALL_DIR /tmp/phongap-ball.dst/Applications    setenv INSTALL_GROUP staff    setenv INSTALL_MODE_FLAG u+w,go-w,a+rX    setenv INSTALL_OWNER johnny    setenv INSTALL_PATH /Applications    setenv INSTALL_ROOT /tmp/phongap-ball.dst    setenv IPHONEOS_DEPLOYMENT_TARGET 5.0    setenv JAVAC_DEFAULT_FLAGS "-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    setenv JAVA_APP_STUB /System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    setenv JAVA_ARCHIVE_CLASSES YES    setenv JAVA_ARCHIVE_TYPE JAR    setenv JAVA_COMPILER /usr/bin/javac    setenv JAVA_FOLDER_PATH phongap-ball.app/Java    setenv JAVA_FRAMEWORK_RESOURCES_DIRS Resources    setenv JAVA_JAR_FLAGS cv    setenv JAVA_SOURCE_SUBDIR .    setenv JAVA_USE_DEPENDENCIES YES    setenv JAVA_ZIP_FLAGS -urg    setenv JIKES_DEFAULT_FLAGS "+E +OLDCSO"    setenv KEEP_PRIVATE_EXTERNS NO    setenv LD_GENERATE_MAP_FILE NO    setenv LD_MAP_FILE_PATH /Users/johnny/development/phonegap/phonegap-ball/build/phongap-ball.build/Debug-iphonesimulator/phongap-ball.build/phongap-ball-LinkMap-normal-i386.txt    setenv LD_NO_PIE NO    setenv LEGACY_DEVELOPER_DIR /Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer    setenv LEX lex    setenv LIBRARY_FLAG_NOSPACE YES    setenv LIBRARY_FLAG_PREFIX -l    setenv LIBRARY_SEARCH_PATHS "\"/Users/johnny/development/phonegap/phonegap-ball/build\" "    setenv LINKER_DISPLAYS_MANGLED_NAMES NO    setenv LINK_FILE_LIST_normal_i386 /Users/johnny/development/phonegap/phonegap-ball/build/phongap-ball.build/Debug-iphonesimulator/phongap-ball.build/Objects-normal/i386/phongap-ball.LinkFileList    setenv LINK_WITH_STANDARD_LIBRARIES YES    setenv LOCALIZED_RESOURCES_FOLDER_PATH phongap-ball.app/English.lproj    setenv LOCAL_ADMIN_APPS_DIR /Applications/Utilities    setenv LOCAL_APPS_DIR /Applications    setenv LOCAL_DEVELOPER_DIR /Library/Developer    setenv LOCAL_LIBRARY_DIR /Library    setenv MACH_O_TYPE mh_execute    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv MAC_OS_X_PRODUCT_BUILD_VERSION 11G63    setenv MAC_OS_X_VERSION_ACTUAL 1075    setenv MAC_OS_X_VERSION_MAJOR 1070    setenv MAC_OS_X_VERSION_MINOR 0705    setenv NATIVE_ARCH i386    setenv NATIVE_ARCH_32_BIT i386    setenv NATIVE_ARCH_64_BIT x86_64    setenv NATIVE_ARCH_ACTUAL x86_64    setenv NO_COMMON YES    setenv OBJC_ABI_VERSION 2    setenv OBJECT_FILE_DIR /Users/johnny/development/phonegap/phonegap-ball/build/phongap-ball.build/Debug-iphonesimulator/phongap-ball.build/Objects    setenv OBJECT_FILE_DIR_normal /Users/johnny/development/phonegap/phonegap-ball/build/phongap-ball.build/Debug-iphonesimulator/phongap-ball.build/Objects-normal    setenv OBJROOT /Users/johnny/development/phonegap/phonegap-ball/build    setenv ONLY_ACTIVE_ARCH NO    setenv OPTIMIZATION_LEVEL 0    setenv OS MACOS    setenv OSAC /usr/bin/osacompile    setenv OTHER_LDFLAGS "-weak_framework CoreFoundation -weak_framework UIKit -weak_framework AVFoundation -weak_framework CoreMedia -weak-lSystem -all_load -Obj-C"    setenv PACKAGE_TYPE com.apple.package-type.wrapper.application    setenv PASCAL_STRINGS YES    setenv PATH "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/local/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Tools:/usr/local/share/npm/bin:/usr/local/heroku/bin:/Users/johnny/Library/Haskell/bin:/usr/local/bin:/Users/johnny/.rbenv/shims:/Users/johnny/.rbenv/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/X11/bin:/usr/texbin:/Users/johnny/Scripts:/Users/johnny/Scripts/git_diff_wrapper:/Users/johnny/Scripts/chotools:/Users/johnny/Dropbox/app/chotools"    setenv PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES "/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Applications/Xcode.app/Contents/Developer/Headers /Applications/Xcode.app/Contents/Developer/SDKs /Applications/Xcode.app/Contents/Developer/Platforms"    setenv PBDEVELOPMENTPLIST_PATH phongap-ball.app/pbdevelopment.plist    setenv PFE_FILE_C_DIALECTS objective-c    setenv PKGINFO_FILE_PATH /Users/johnny/development/phonegap/phonegap-ball/build/phongap-ball.build/Debug-iphonesimulator/phongap-ball.build/PkgInfo    setenv PKGINFO_PATH phongap-ball.app/PkgInfo    setenv PLATFORM_DEVELOPER_APPLICATIONS_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Applications    setenv PLATFORM_DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin    setenv PLATFORM_DEVELOPER_LIBRARY_DIR /Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer/Library    setenv PLATFORM_DEVELOPER_SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs    setenv PLATFORM_DEVELOPER_TOOLS_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Tools    setenv PLATFORM_DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr    setenv PLATFORM_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform    setenv PLATFORM_NAME iphonesimulator    setenv PLATFORM_PREFERRED_ARCH i386    setenv PLATFORM_PRODUCT_BUILD_VERSION 10B141    setenv PLATFORM_VERSION_AVAILABILITY_H_FORMAT 60100    setenv PLIST_FILE_OUTPUT_FORMAT binary    setenv PLUGINS_FOLDER_PATH phongap-ball.app/PlugIns    setenv PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR YES    setenv PRECOMP_DESTINATION_DIR /Users/johnny/development/phonegap/phonegap-ball/build/phongap-ball.build/Debug-iphonesimulator/phongap-ball.build/PrefixHeaders    setenv PRESERVE_DEAD_CODE_INITS_AND_TERMS NO    setenv PRIVATE_HEADERS_FOLDER_PATH phongap-ball.app/PrivateHeaders    setenv PRODUCT_NAME phongap-ball    setenv PRODUCT_SETTINGS_PATH /Users/johnny/development/phonegap/phonegap-ball/phongap-ball/phongap-ball-Info.plist    setenv PRODUCT_TYPE com.apple.product-type.application    setenv PROFILING_CODE NO    setenv PROJECT phongap-ball    setenv PROJECT_DERIVED_FILE_DIR /Users/johnny/development/phonegap/phonegap-ball/build/phongap-ball.build/DerivedSources    setenv PROJECT_DIR /Users/johnny/development/phonegap/phonegap-ball    setenv PROJECT_FILE_PATH /Users/johnny/development/phonegap/phonegap-ball/phongap-ball.xcodeproj    setenv PROJECT_NAME phongap-ball    setenv PROJECT_TEMP_DIR /Users/johnny/development/phonegap/phonegap-ball/build/phongap-ball.build    setenv PROJECT_TEMP_ROOT /Users/johnny/development/phonegap/phonegap-ball/build    setenv PUBLIC_HEADERS_FOLDER_PATH phongap-ball.app/Headers    setenv RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS YES    setenv REMOVE_CVS_FROM_RESOURCES YES    setenv REMOVE_GIT_FROM_RESOURCES YES    setenv REMOVE_HG_FROM_RESOURCES YES    setenv REMOVE_SVN_FROM_RESOURCES YES    setenv REZ_COLLECTOR_DIR /Users/johnny/development/phonegap/phonegap-ball/build/phongap-ball.build/Debug-iphonesimulator/phongap-ball.build/ResourceManagerResources    setenv REZ_OBJECTS_DIR /Users/johnny/development/phonegap/phonegap-ball/build/phongap-ball.build/Debug-iphonesimulator/phongap-ball.build/ResourceManagerResources/Objects    setenv REZ_SEARCH_PATHS "\"/Users/johnny/development/phonegap/phonegap-ball/build\" "    setenv RUN_CLANG_STATIC_ANALYZER NO    setenv SCAN_ALL_SOURCE_FILES_FOR_INCLUDES NO    setenv SCRIPTS_FOLDER_PATH phongap-ball.app/Scripts    setenv SCRIPT_INPUT_FILE_COUNT 0    setenv SCRIPT_OUTPUT_FILE_COUNT 0    setenv SDKROOT /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk    setenv SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk    setenv SDK_NAME iphonesimulator6.1    setenv SDK_PRODUCT_BUILD_VERSION 10B141    setenv SED /usr/bin/sed    setenv SEPARATE_STRIP NO    setenv SEPARATE_SYMBOL_EDIT NO    setenv SET_DIR_MODE_OWNER_GROUP YES    setenv SET_FILE_MODE_OWNER_GROUP NO    setenv SHALLOW_BUNDLE YES    setenv SHARED_DERIVED_FILE_DIR /Users/johnny/development/phonegap/phonegap-ball/build/DerivedSources    setenv SHARED_FRAMEWORKS_FOLDER_PATH phongap-ball.app/SharedFrameworks    setenv SHARED_PRECOMPS_DIR /var/folders/mj/1r224_d97w3fndscsqv3wv5r0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders    setenv SHARED_SUPPORT_FOLDER_PATH phongap-ball.app/SharedSupport    setenv SKIP_INSTALL NO    setenv SOURCE_ROOT /Users/johnny/development/phonegap/phonegap-ball    setenv SRCROOT /Users/johnny/development/phonegap/phonegap-ball    setenv STRINGS_FILE_OUTPUT_ENCODING binary    setenv STRIP_INSTALLED_PRODUCT YES    setenv STRIP_STYLE all    setenv SUPPORTED_DEVICE_FAMILIES "1 2"    setenv SUPPORTED_PLATFORMS "iphonesimulator iphoneos"    setenv SYMROOT /Users/johnny/development/phonegap/phonegap-ball/build    setenv SYSTEM_ADMIN_APPS_DIR /Applications/Utilities    setenv SYSTEM_APPS_DIR /Applications    setenv SYSTEM_CORE_SERVICES_DIR /System/Library/CoreServices    setenv SYSTEM_DEMOS_DIR /Applications/Extras    setenv SYSTEM_DEVELOPER_APPS_DIR /Applications/Xcode.app/Contents/Developer/Applications    setenv SYSTEM_DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/usr/bin    setenv SYSTEM_DEVELOPER_DEMOS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Utilities/Built Examples"    setenv SYSTEM_DEVELOPER_DIR /Applications/Xcode.app/Contents/Developer    setenv SYSTEM_DEVELOPER_DOC_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library"    setenv SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Graphics Tools"    setenv SYSTEM_DEVELOPER_JAVA_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Java Tools"    setenv SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Performance Tools"    setenv SYSTEM_DEVELOPER_RELEASENOTES_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes"    setenv SYSTEM_DEVELOPER_TOOLS /Applications/Xcode.app/Contents/Developer/Tools    setenv SYSTEM_DEVELOPER_TOOLS_DOC_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/documentation/DeveloperTools"    setenv SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes/DeveloperTools"    setenv SYSTEM_DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/usr    setenv SYSTEM_DEVELOPER_UTILITIES_DIR /Applications/Xcode.app/Contents/Developer/Applications/Utilities    setenv SYSTEM_DOCUMENTATION_DIR /Library/Documentation    setenv SYSTEM_LIBRARY_DIR /System/Library    setenv TARGETED_DEVICE_FAMILY 1,2    setenv TARGETNAME phongap-ball    setenv TARGET_BUILD_DIR /Users/johnny/development/phonegap/phonegap-ball/build    setenv TARGET_NAME phongap-ball    setenv TARGET_TEMP_DIR /Users/johnny/development/phonegap/phonegap-ball/build/phongap-ball.build/Debug-iphonesimulator/phongap-ball.build    setenv TEMP_DIR /Users/johnny/development/phonegap/phonegap-ball/build/phongap-ball.build/Debug-iphonesimulator/phongap-ball.build    setenv TEMP_FILES_DIR /Users/johnny/development/phonegap/phonegap-ball/build/phongap-ball.build/Debug-iphonesimulator/phongap-ball.build    setenv TEMP_FILE_DIR /Users/johnny/development/phonegap/phonegap-ball/build/phongap-ball.build/Debug-iphonesimulator/phongap-ball.build    setenv TEMP_ROOT /Users/johnny/development/phonegap/phonegap-ball/build    setenv TEST_AFTER_BUILD NO    setenv TOOLCHAINS com.apple.dt.toolchain.XcodeDefault    setenv UID 501    setenv UNLOCALIZED_RESOURCES_FOLDER_PATH phongap-ball.app    setenv UNSTRIPPED_PRODUCT NO    setenv USER johnny    setenv USER_APPS_DIR /Users/johnny/Applications    setenv USER_LIBRARY_DIR /Users/johnny/Library    setenv USE_DYNAMIC_NO_PIC YES    setenv USE_HEADERMAP YES    setenv USE_HEADER_SYMLINKS NO    setenv VALIDATE_PRODUCT NO    setenv VALID_ARCHS i386    setenv VERBOSE_PBXCP NO    setenv VERSIONPLIST_PATH phongap-ball.app/version.plist    setenv VERSION_INFO_BUILDER johnny    setenv VERSION_INFO_FILE phongap-ball_vers.c    setenv VERSION_INFO_STRING "\"@(#)PROGRAM:phongap-ball  PROJECT:phongap-ball-\""    setenv WRAPPER_EXTENSION app    setenv WRAPPER_NAME phongap-ball.app    setenv WRAPPER_SUFFIX .app    setenv XCODE_APP_SUPPORT_DIR /Applications/Xcode.app/Contents/Developer/Library/Xcode    setenv XCODE_PRODUCT_BUILD_VERSION 4H512    setenv XCODE_VERSION_ACTUAL 0461    setenv XCODE_VERSION_MAJOR 0400    setenv XCODE_VERSION_MINOR 0460    setenv YACC yacc    /bin/sh -c /Users/johnny/development/phonegap/phonegap-ball/build/phongap-ball.build/Debug-iphonesimulator/phongap-ball.build/Script-304B58A110DAC018002A0835.sh36"0533B445-30C6-431A-B1A2-769BD4A08B6A-
+
+CProcessInfoPlistFile /Users/johnny/development/phonegap/phonegap-ball/build/phongap-ball.app/Info.plist phongap-ball/phongap-ball-Info.plist
+s390675117.575790
+e390675117.587242
+r1
+xProcessInfoPlistFile
+x/Users/johnny/development/phonegap/phonegap-ball/build/phongap-ball.app/Info.plist
+xphongap-ball/phongap-ball-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection44"Process phongap-ball/phongap-ball-Info.plist838993ad3a49b741^93fd97ad3a49b741^---0#0#0#-19%DVTDocumentLocation2@101"file://localhost/Users/johnny/development/phonegap/phonegap-ball/phongap-ball/phongap-ball-Info.plist0000000000000000^1023"ProcessInfoPlistFile build/phongap-ball.app/Info.plist phongap-ball/phongap-ball-Info.plist    cd /Users/johnny/development/phonegap/phonegap-ball    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/share/npm/bin:/usr/local/heroku/bin:/Users/johnny/Library/Haskell/bin:/usr/local/bin:/Users/johnny/Library/Haskell/bin:/Users/johnny/.rbenv/shims:/Users/johnny/.rbenv/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/X11/bin:/usr/texbin:/Users/johnny/Scripts:/Users/johnny/Scripts/git_diff_wrapper:/Users/johnny/Scripts/chotools:/usr/texbin:/Users/johnny/Dropbox/app/chotools"    builtin-infoPlistUtility phongap-ball/phongap-ball-Info.plist -genpkginfo /Users/johnny/development/phonegap/phonegap-ball/build/phongap-ball.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/johnny/development/phonegap/phonegap-ball/build/phongap-ball.app/Info.plist36"D04695C0-32C8-49D0-8B1D-DE67E5B746C0-
+
+CProcessPCH /var/folders/mj/1r224_d97w3fndscsqv3wv5r0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/phongap-ball-Prefix-ghgtfennkhbuouestdfkjbwoisdi/phongap-ball-Prefix.pch.pth phongap-ball/phongap-ball-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s390675118.060894
+e390675118.507906
+r1
+xProcessPCH
+x/var/folders/mj/1r224_d97w3fndscsqv3wv5r0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/phongap-ball-Prefix-ghgtfennkhbuouestdfkjbwoisdi/phongap-ball-Prefix.pch.pth
+xphongap-ball/phongap-ball-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Precompile phongap-ball/phongap-ball-Prefix.pch26c50fae3a49b741^2a1b82ae3a49b741^---0#0#0#-19%DVTDocumentLocation2@101"file://localhost/Users/johnny/development/phonegap/phonegap-ball/phongap-ball/phongap-ball-Prefix.pch0000000000000000^3961"ProcessPCH /var/folders/mj/1r224_d97w3fndscsqv3wv5r0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/phongap-ball-Prefix-ghgtfennkhbuouestdfkjbwoisdi/phongap-ball-Prefix.pch.pth phongap-ball/phongap-ball-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/johnny/development/phonegap/phonegap-ball    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/share/npm/bin:/usr/local/heroku/bin:/Users/johnny/Library/Haskell/bin:/usr/local/bin:/Users/johnny/Library/Haskell/bin:/Users/johnny/.rbenv/shims:/Users/johnny/.rbenv/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/X11/bin:/usr/texbin:/Users/johnny/Scripts:/Users/johnny/Scripts/git_diff_wrapper:/Users/johnny/Scripts/chotools:/usr/texbin:/Users/johnny/Dropbox/app/chotools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/johnny/development/phonegap/phonegap-ball/build/phongap-ball.build/Debug-iphonesimulator/phongap-ball.build/phongap-ball-generated-files.hmap -I/Users/johnny/development/phonegap/phonegap-ball/build/phongap-ball.build/Debug-iphonesimulator/phongap-ball.build/phongap-ball-own-target-headers.hmap -I/Users/johnny/development/phonegap/phonegap-ball/build/phongap-ball.build/Debug-iphonesimulator/phongap-ball.build/phongap-ball-all-target-headers.hmap -iquote /Users/johnny/development/phonegap/phonegap-ball/build/phongap-ball.build/Debug-iphonesimulator/phongap-ball.build/phongap-ball-project-headers.hmap -I/Users/johnny/development/phonegap/phonegap-ball/build/include -I/Users/johnny/development/phonegap/phonegap-ball/build/usr/local/lib/include -I/Users/johnny/development/phonegap/phonegap-ball/build/UninstalledProducts/include -I/Users/johnny/development/phonegap/phonegap-ball/build -I/Users/johnny/development/phonegap/phonegap-ball/build/phongap-ball.build/Debug-iphonesimulator/phongap-ball.build/DerivedSources/i386 -I/Users/johnny/development/phonegap/phonegap-ball/build/phongap-ball.build/Debug-iphonesimulator/phongap-ball.build/DerivedSources -F/Users/johnny/development/phonegap/phonegap-ball/build --serialize-diagnostics /var/folders/mj/1r224_d97w3fndscsqv3wv5r0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/phongap-ball-Prefix-ghgtfennkhbuouestdfkjbwoisdi/phongap-ball-Prefix.pch.dia -c /Users/johnny/development/phonegap/phonegap-ball/phongap-ball/phongap-ball-Prefix.pch -o /var/folders/mj/1r224_d97w3fndscsqv3wv5r0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/phongap-ball-Prefix-ghgtfennkhbuouestdfkjbwoisdi/phongap-ball-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/mj/1r224_d97w3fndscsqv3wv5r0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/phongap-ball-Prefix-ghgtfennkhbuouestdfkjbwoisdi/phongap-ball-Prefix.pch.d36"2D78AB99-4FF1-4360-BA31-CD98E54AE61F-
+
+CTouch /Users/johnny/development/phonegap/phonegap-ball/build/phongap-ball.app
+s390675119.090869
+e390675119.100643
+r1
+xTouch
+x/Users/johnny/development/phonegap/phonegap-ball/build/phongap-ball.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Touch /Users/johnny/development/phonegap/phonegap-ball/build/phongap-ball.app886917af3a49b741^18231aaf3a49b741^---0#0#0#--748"Touch build/phongap-ball.app    cd /Users/johnny/development/phonegap/phonegap-ball    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/share/npm/bin:/usr/local/heroku/bin:/Users/johnny/Library/Haskell/bin:/usr/local/bin:/Users/johnny/Library/Haskell/bin:/Users/johnny/.rbenv/shims:/Users/johnny/.rbenv/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/X11/bin:/usr/texbin:/Users/johnny/Scripts:/Users/johnny/Scripts/git_diff_wrapper:/Users/johnny/Scripts/chotools:/usr/texbin:/Users/johnny/Dropbox/app/chotools"    /usr/bin/touch -c /Users/johnny/development/phonegap/phonegap-ball/build/phongap-ball.app36"C656DCDF-E841-4D91-97BB-FC6A919CE697-
+
