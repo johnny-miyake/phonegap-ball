@@ -7,22 +7,27 @@
         padding: 0;
       }
     </style>
-    <script src="http://code.jquery.com/jquery-2.0.0.min.js"></script>
+    <script src="js/jquery-2.0.0.min.js"></script>
+    <script type="text/javascript" charset="utf-8" src="cordova-2.7.0.js"></script>
     <script>
+      document.addEventListener("deviceready", onDeviceReady, false);
+
       d = document;
-      cmp_width = 320;
-      cmp_height = 470;
-      default_bx = bx = 70;
+      cmp_height = 310;
+      cmp_width = 480;
+      default_bx = bx = 20;
       default_by = by = 120;
-      vx = vy = 1;
-      paddle_width = 60;
+      vx = vy = -4;
+      paddle_width  = 60;
       paddle_height = 10;
       br = 10;
       px = cmp_width / 2 - paddle_width / 2;
-      py = 420;
+      py = 280;
       paddle_movable = false;
       alive = true;
       num_refrect = 0;
+      interval = 10;
+
       $(document).bind("touchstart", function(){
         paddle_movable = true;
         touch_x = event.changedTouches[0].pageX;
@@ -35,6 +40,7 @@
           touch_x = move_x
         }
       });
+
       function draw() {
         var canvas = d.getElementById("canvassample");
         if (!canvas || !canvas.getContext) {
@@ -51,31 +57,54 @@
         ctx.font = "40pt Arial";
         ctx.fillText("" + num_refrect, 30, 80);
       }
+
+      function startWatch() {
+        var options = {frequency: 20};
+        watchID = navigator.accelerometer.watchAcceleration(onSuccessGetAcc,
+        onErrorGetAcc, options);
+      }
+
+      function onSuccessGetAcc(acc) {
+        if ((px > 0 && acc.y <= 0) || (px + paddle_width < cmp_width && acc.y > 0)) {
+          px += acc.y * 2;
+        }
+        //py += acc.y;
+      }
+
+      function onErrorGetAcc(acc) {
+        alert("acc error");
+      }
+
       $(function(){
         draw();
       });
-      setInterval(function(){
-        if (by > cmp_height - 10) {
-          alert("Game Over");
-          num_refrect = 0;
-          bx = default_bx;
-          by = default_by;
-        }
-        if (bx < 10 || bx > cmp_width - 10) {vx *= -1}
-        if (by < 10) {vy *= -1}
-        if (alive && by > py && by > py && px < bx && bx < (px + paddle_width)) {
-          vy *= -1
-          num_refrect++;
-        }
-        if (by > py) {alive = false}
-        if (by <= py) {alive = true}
-        bx += vx;
-        by += vy;
-        draw();
-      }, 5);
+
+      function onDeviceReady() {
+        startWatch();
+        setInterval(function(){
+          if (by > cmp_height - 10) {
+            alert("Game Over");
+            num_refrect = 0;
+            if (vy > 0) {vy *= -1}
+            bx = default_bx;
+            by = default_by;
+          }
+          if (bx < 10 || bx > cmp_width - 10) {vx *= -1}
+          if (by < 10) {vy *= -1}
+          if (alive && by > py && by > py && px < bx && bx < (px + paddle_width)) {
+            vy *= -1
+            num_refrect++;
+          }
+          if (by > py) {alive = false}
+          if (by <= py) {alive = true}
+          bx += vx;
+          by += vy;
+          draw();
+        }, interval);
+      }
     </script>
   </head>
   <body>
-    <canvas id="canvassample" width="320" height="480"></canvas>
+    <canvas id="canvassample" width="480" height="320"></canvas>
   </body>
 </html>

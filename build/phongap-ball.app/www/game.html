@@ -7,22 +7,23 @@
         padding: 0;
       }
     </style>
-    <script src="http://code.jquery.com/jquery-2.0.0.min.js"></script>
+    <script src="js/jquery-2.0.0.min.js"></script>
     <script>
       d = document;
       cmp_width = 320;
       cmp_height = 470;
       default_bx = bx = 70;
       default_by = by = 120;
-      vx = vy = 1;
+      vx = vy = 4;
       paddle_width = 60;
       paddle_height = 10;
       br = 10;
       px = cmp_width / 2 - paddle_width / 2;
-      py = 420;
+      py = 360;
       paddle_movable = false;
       alive = true;
       num_refrect = 0;
+      interval = 10;
       $(document).bind("touchstart", function(){
         paddle_movable = true;
         touch_x = event.changedTouches[0].pageX;
@@ -54,25 +55,30 @@
       $(function(){
         draw();
       });
-      setInterval(function(){
-        if (by > cmp_height - 10) {
-          alert("Game Over");
-          num_refrect = 0;
-          bx = default_bx;
-          by = default_by;
-        }
-        if (bx < 10 || bx > cmp_width - 10) {vx *= -1}
-        if (by < 10) {vy *= -1}
-        if (alive && by > py && by > py && px < bx && bx < (px + paddle_width)) {
-          vy *= -1
-          num_refrect++;
-        }
-        if (by > py) {alive = false}
-        if (by <= py) {alive = true}
-        bx += vx;
-        by += vy;
-        draw();
-      }, 5);
+      _setInterval = function() {
+        var loop = setInterval(function(){
+          if (by > cmp_height - 10) {
+            alert("Game Over");
+            num_refrect = 0;
+            bx = default_bx;
+            by = default_by;
+          }
+          if (bx < 10 || bx > cmp_width - 10) {vx *= -1}
+          if (by < 10) {vy *= -1}
+          if (alive && by > py && by > py && px < bx && bx < (px + paddle_width)) {
+            vy *= -1
+            num_refrect++;
+            clearInterval(loop);
+            _setInterval(interval--);
+          }
+          if (by > py) {alive = false}
+          if (by <= py) {alive = true}
+          bx += vx;
+          by += vy;
+          draw();
+        }, interval);
+      }
+      _setInterval();
     </script>
   </head>
   <body>
